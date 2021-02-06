@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+<head>
+
+
+<title>Resources for research</title>
+<link href = "Resources_for_research_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Resources_for_research_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<h1>Resources for research</h1>
+<p>Reading this webpage:<br>
+1. You will learn a few basic (but very important) concepts about the purpose of research.<br>
+2. You will have access to multiple resources for doing research, organized by study type.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h2>Purpose of research</h2>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question1" name="question1">
+<p><b>Q1. What is the methodology of <a href="https://www.nejm.org/doi/pdf/10.1056/NEJM200002033420503?articleTools=true" target="_blank">this study?</a></b>
+
+<br>
+<br>
+<input type="radio" id="q1" name="question" value="a"> Cost-effectiveness study<br>
+<input type="radio" id="q1" name="question" value="b"> Randomized clinical-trial<br>
+<input type="radio" id="q1" name="question" value="c"> Case report<br>
+<input type="radio" id="q1" name="question" value="d"> Observational study<br>
+<input type="radio" id="q1" name="question" value="e"> Meta-analysis<br>
+<input id="buttonQ1" type="button" value="Done!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question2" name="question2">
+<p><b>Q2. What is the methodology of <a href="https://www.thelancet.com/action/showPdf?pii=S1473-3099%2820%2930764-7" target="_blank">this study?</a></b>
+
+<br>
+<br>
+<input type="radio" id="q2" name="question" value="a"> Cost-effectiveness study<br>
+<input type="radio" id="q2" name="question" value="b"> Randomized clinical-trial<br>
+<input type="radio" id="q2" name="question" value="c"> Case report<br>
+<input type="radio" id="q2" name="question" value="d"> Observational study<br>
+<input type="radio" id="q2" name="question" value="e"> Meta-analysis<br>
+<input id="buttonQ2" type="button" value="Done!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<form id="question3" name="question3">
+<p><b>Q3. Drag and drop to match the question you want to answer with its best study methodology:</b>
+<br>
+<br>
+
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>What is the diagnostic yield of whole exome sequencing for intellectual disability?</b></p>
+<br>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Proportion of malformations in children exposed to medications during pregnancy?</b></p>
+<br>
+<br>
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>What would be the benefit of a vaccination program with a new vaccine?</b></p>
+<br>
+<br>
+<div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Does SARS-CoV-2 cause encephalitis lethargica?</b></p>
+<br>
+<br>
+<div id="drop5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>What do neurologists prescribe for multiple sclerosis?</b></p>
+<br>
+<br>
+<div id="drop6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Not used</b></p>
+
+<br>
+<br>
+
+<span id="drag1" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>Cost-effectiveness study&emsp;</b></span></div>
+<span id="drag2" data-div="drop6" draggable="true" ondragstart="drag(event)"><b>Randomized clinical-trial&emsp;</b></span></div>
+<span id="drag3" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>Case report&emsp;</b></span></div>
+<span id="drag4" data-div="drop6" draggable="true" ondragstart="drag(event)"><b>Observational study&emsp;</b></span></div>
+<span id="drag5" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>Meta-analysis&emsp;</b></span></div>
+<br><br>
+<span id="drag6" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>Population registry&emsp;</b></span></div>
+<span id="drag7" data-div="drop5" draggable="true" ondragstart="drag(event)"><b>Survey&emsp;</b></span></div>
+<span id="drag8" data-div="drop6" draggable="true" ondragstart="drag(event)"><b>Deep learning&emsp;</b></span></div>
+
+<br>
+<br>
+<input id="buttonQ3" type="button" value="Show me all the answers, please!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+<p><b>The purpose of (medical) research is to answer (clinically relevant) questions. Each question has a best study methodology to answer that question. Sometimes there are several study methodologies that are reasonable for a particular question. There is no overall best study methodology. All study methodologies have advantages and disadvantages. All study methodologies rely on assumptions that might or might not be reasonable depending on the question and the population under study.</b></p>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h2>Resources</h2>
+
+<br>
+<br>
+<br>
+<br>
+
+<h3>Case reports</h3>
+<p>A case report is a description of a single patient. You should write a case report if the case report answers a clinically relevant question. There is only other reason why you should write a case report: teaching other clinicians about a specific thing that will be clinically relevant like in <a href='https://www.nejm.org/doi/pdf/10.1056/NEJMoa1212292?articleTools=true' target='_blank'>this study</a><br><br>
+If your case report is not answering a (clinically relevant) question and there is no major teaching point, do not write a case report. There are so many questions to be answered in medicine and you should focus on writing a study that actually answers a clinically relevant question.</p>
+
+
+<br>
+<br>
+
+<h3>Descriptive observational studies based on large databases</h3>
+<p>There are many clinically relevant questions that you can answer with this approach. Publicly available large databases are common and are likely to get more popular over time.<br><br>
+With this approach you can answer relevant epidemiological questions (evolution of a disease or a treatment over time, statistical associations between diseases and different variables, etc.).<br><br>
+In most of these large databases, you have to identify the disease or the treatment based on ICD codes or CPT codes. What diseases or treatments are good to study in those databases? Very specific
+ diagnoses or treatments that can be identified unequivocally based on ICD codes/CPT codes or (better still) a combination of ICD codes and CPT codes (for example, thrombectomy for stroke).
+ What diagnoses or treatments you should not use these databases for? Diagnoses or treatments that can be not completely defined at the time or entering ICD/CPT codes (for example, a code for infantile spasms
+ can be entered unspecifically for any small child with seizures or even with paroxysmal events of unclear nature).<br><br>
+The Agency for Healthcare Research and Quality makes publicly available the <a href='https://www.hcup-us.ahrq.gov/' target='_blank'>Healthcare cost and utilization project databases</a>.
+These are a collection of databases which estimate all hospital admissions in the United States with the NIS (adults) and the KID (children) databases, all
+ hospital readmissions in the United States with the NRD database, all ambulatory surgeries in the United States with the NASS database, and all emergency
+ department visits in the United States with the NEDS database. Their major limitation is lack of follow-up information and limited data on CPT coding.
+ However, it is a great resource. You can take a look at what kind of questions can be answered with these databases using their list of <a href='https://www.hcup-us.ahrq.gov/news/awards_archive.jsp#2019' target='_blank'>outstanding articles of the year</a>.<br><br>
+Boston University has access to the <a href='https://www.ibm.com/products/marketscan-research-databases' target='_blank'>MarketScan databases</a>.
+ The MarketScan databases are similar to the HCUP databases, but they have two major advantages: longitudinal follow-up of individual patients and decent CPT codes. It allows
+ following medical conditions over several decades.
+The National Center for Health Statistics makes publicly available the <a href='https://www.cdc.gov/nchs/nhanes/index.htm' target='_blank'>National Health and Nutrition Examination Survey</a>.
+ This database is very peculiar because it does not only take epidemiological data from the patients, but also does a physical exam, and does lab tests (including toxics and DNA).
+ Do you want to study the genetic association of a disease? You can do a <a href='https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1002292&type=printable' target='_blank'>GWAS</a> with NHANES! 
+ Do you want to evaluate the potential association of a disease with a toxic exposure or blood lab value? You can do an <a href='https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0010746&type=printable' target='_blank'>EWAS</a> with NHANES!</p>
+
+
+<br>
+<br>
+
+
+<h3>Systematic reviews and meta-analysis</h3>
+
+<p>Reviewing a topic of your interest and writing a systematic review about it will teach other clinicians about that topic without the need to review all existing literature.
+ A systematic review helps summarize the questions which have been already answered in that topic and the questions which still remain unanswered. Importantly,
+ if you do a systematic review, you will learn about that topic much better than if you simply study it. Your review of the literature has to add something to the existing literature.
+ Do not write a systematic review of the literature on a topic if a recent systematic review has been written. Write a systematic review of the literature if new relevant articles
+ appeared since the last systematic review, the last systematic review was methodologically limited, or your new systematic review will focus on questions that have not been answered so far.<br><br>
+When there is a specific quantifiable question and there are enough articles to answer it reasonably well, you should do a meta-analysis. The highest level of clinical evidence in medicine are
+ <a href='https://s4be.cochrane.org/blog/2014/04/29/the-evidence-based-medicine-pyramid/' target='_blank'>systematic reviews and meta-analyses</a>. Systematic reviews and meta-analyses
+ require a lot of effort to review the literature, but methodologically are very simple.</p>
+
+
+
+<br>
+<br>
+
+
+<h3>Cost-effectiveness</h3>
+
+<p>Compared to a few decades ago, population is aging, patients with complex medical conditions live much longer, medical technology is much more complex, and as a consequence, healthcare is much more expensive.
+ All developed nations have some form of healthcare economic evaluation institution to determine which medical treatment/interventions provide meaningful improvements to patients compared to their cost.
+ All of them? No. The USA stands alone as the only developed nation without a cost-effectiveness institution. Maybe it is just chance that
+ <a href='https://jamanetwork.com/journals/jama/article-abstract/2674671' target='_blank'>healthcare in the much more expensive and has much worse outcomes than in similar countries</a>. Maybe it is just
+ a coincidence that the <a href='https://news.gallup.com/poll/269138/americans-delaying-medical-treatment-due-cost.aspx' target='_blank'>proportion of patients delaying care due to costs</a>
+ is unheard of in other developed countries.<br><br>
+In any case, cost-effectiveness studies are going to be increasingly relevant, relatively easy to perform, and a type of literature largely unexplored in the USA yet.
+ Examples of cost-effectiveness studies in neurology are <a href='https://jamanetwork.com/journals/jama/articlepdf/183006/joc80119_2497_2505.pdf' target='_blank'>this one (will download the PDF)</a>,
+or <a href='https://www.ahajournals.org/doi/pdf/10.1161/STROKEAHA.116.014735?download=true' target='_blank'>this one (will download the PDF)</a>.</p>
+
+
+
+<br>
+<br>
+
+
+<h3>Convolutional neural networks</h3>
+<br>
+<form id="question4" name="question4">
+<p><b>Q4. A colleague tells you about a new study. The clinician aims to diagnose all types of neurological autoimmune diseases based
+ on 'big data' and 'artificial intelligence' from the clinical chart. When you ask what specific data will be used, the answer is 'brain MRIs and text from the clinical charts as needed'.
+ When you ask about what type of methodology the clinician is going to use the answer is 'we will try different types of artificial intelligence and deep learning'
+ When you ask about the potential limitations of the approach the answer is 'the artificial intelligence will figure out the problems'.
+ What is your next best step:</b>
+
+<br>
+<br>
+<input type="radio" id="q4" name="question" value="a"> Run away! As fast as you can.<br>
+<input type="radio" id="q4" name="question" value="b"> Suggest to build up a start-up company and invest your savings into this project.<br>
+<input type="radio" id="q4" name="question" value="c"> Volunteer to spend some of your research time in the project.<br>
+<input type="radio" id="q4" name="question" value="d"> Volunteer to collect some images for the project.<br>
+<input type="radio" id="q4" name="question" value="e"> Volunteer to collect some text for the project.<br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+<p>"Beware of geeks bearing formulas"--W.Buffett. Since the early 2010s, the use of convolutional neural networks, a type of machine learning focused on automatically detecting patterns in pictures has
+ solved a major problem in computer engineering: detecting objects and segmenting them. Their advances have been <a href='https://youtu.be/WZmSMkK9VuA' target='_blank'>spectacular</a>
+ and some of these advances <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31645-3/fulltext?dgcid=raven_jbs_etoc_email' target='_blank'>have been successfully applied to medicine</a>.<br><br>
+These techniques, however, have many limitations (like any other technique), mostly the need of huge numbers of examples to train the neural network and the
+ relatively ease of tricking the system with generative adversarial neworks. If you want a gentle introduction you have the
+ <a href='https://hms-dbmi.github.io/BMI_707/' target='_blank'>deep learning for biomedical data course</a>, which is a very basic course that will give a balanced view of
+ if, when, and how to use machine learning in medicine (essentially focused on imaging).</p>
+
+<br>
+<br>
+
+
+<h3>Other resources</h3>
+<br>
+<p><b>Writing:</b> The more scientific courses you take, the better you will write.
+However, <a href='https://www.coursera.org/learn/sciwrite' target='_blank'>this course</a> is very good and practical. If you are writing an
+ article, you can use the course to polish your writing while learning how to write.</p>
+<br>
+<br>
+<p><b>Statistics:</b> You have to have at least a basic idea about epidemiology and statistics for most studies. It will also help you
+ read medical literature much better. "Statistical thinking will one day be as necessary for efficient citizenship as the ability
+ to read and write"--H.G.Wells
+<a href='https://catalyst.harvard.edu/services/biostatscertificate/'_blank'>This course</a> is very basic, but very good. At Boston University,
+ the <a href='http://sites.bu.edu/tec/'_blank'>Center for Clinical Translational Epidemiology and Comparative Effectiveness Research</a>
+ provides statistical support. "To call in the statistician after the experiment is done may be no more than asking him to perform a postmortem
+ examination: he may be able to say what the experiment died of"--R.A.Fisher</p>
+
+<br>
+<br>
+
+
+<h3>Remember</h3>
+<br>
+<p>What technique do they use in <a href='https://jnnp.bmj.com/content/jnnp/35/6/776.full.pdf'_blank'>this article</a>?<br><br>
+No matter your specialty and no matter how advanced your medical practice it is now, in 50 years people will be laughing at how you practiced medicine.
+ Research has way more impact on patients than clinical practice.</p>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h2><b>SUMMARY</b></h2>
+<p><b>The purpose of (medical) research is to answer (clinically relevant) questions. All study methodologies have advantages and disadvantages.
+ Each question requires its own proper study methodology to answer it. </b></p>
+
+<br>
+<br>
+<br>
+<br>
+
+</body>
+
+</html>
