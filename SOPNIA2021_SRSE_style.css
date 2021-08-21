@@ -138,3 +138,64 @@ body {
 
 
 
+
+#question3 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
+}
+
+
+#buttonQ3 {
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
+}
+
+
+#buttonQ3:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+
+#after_submitQ3 {
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 425px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+#drop1, #drop2 {
+  float: left;
+  width: 400px;
+  height: 60px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+}
+
+
+#drag1, #drag2, #drag3, #drag4 {
+  border: solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
