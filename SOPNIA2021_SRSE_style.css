@@ -185,7 +185,7 @@ body {
 #drop1, #drop2 {
   float: left;
   width: 400px;
-  height: 80px;
+  height: 100px;
   margin-left: 10px;
   padding: 10px;
   border: solid black;
