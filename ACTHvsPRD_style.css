@@ -1,0 +1,25 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+.cumulativeACTH{
+  width:1500px;
+  height:600px;
+  display:inline-block;
+  background-image: url('cumulativeACTH.png');
+}
+
+
+.cumulativeACTH.CohenSadan2009{
+  background-position: 0px 65px;
+}
+
+
+
