@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+
+
+<title>Dystonia</title>
+<link href = "Dystonia_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Dystonia_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<h1>Dystonia</h1>
+<p>In this post you will learn the main features of dystonia.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h2>Identify the movement disorder</h2>
+<p>In most areas of Neurology the first step is to localize the symptom in the central nervous system. In movement disorders you have to move a step
+ back and first recognize and name the symptom: how do you call the abnormal movements of the patient?</p>
+
+
+<br>
+<br>
+
+
+<form id="question1" name="question1">
+<p><b>Q1. A first approach to classification of movement disorders is to put them in the category of "too much movement" (or movements which should not be there),
+ "too little movement" (or movements which should be there, but are not), or "uncoordinated movement" (movements present, but dysorganized performance).
+ Drag and drop the concepts into their corresponding category.</b>
+<br>
+<br>
+
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Hyperkinetic</b></p>
+<br>
+<br>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Hypokinetic</b></p>
+<br>
+<br>
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Ataxic</b></p>
+
+
+<br>
+<br>
+
+
+<span id="drag1" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Cerebellar ataxia&emsp;</b></span></div>
+<span id="drag2" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Chorea&emsp;</b></span></div>
+<br><br>
+<span id="drag3" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Hypokinesia&emsp;</b></span></div>
+<span id="drag4" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Akinesia&emsp;</b></span></div>
+<br><br>
+<span id="drag5" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Parkinsonism&emsp;</b></span></div>
+<span id="drag6" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Tremor&emsp;</b></span></div>
+<br><br>
+<span id="drag7" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Tics&emsp;</b></span></div>
+<span id="drag8" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Myoclonus&emsp;</b></span></div>
+<br><br>
+<span id="drag9" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Sensory ataxia&emsp;</b></span></div>
+<span id="drag10" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Athethosis&emsp;</b></span></div>
+<br><br>
+<span id="drag11" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Ballism&emsp;</b></span></div>
+<span id="drag12" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Dystonia&emsp;</b></span></div>
+
+<br>
+<br>
+<input id="buttonQ1" type="button" value="Show me all the answers, please!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<form id="question2" name="question2">
+<p><b>Q2. Tremors can be further classified to help think about their specific etiologies. Drag and drop the concepts into their corresponding category.</b>
+<br>
+<br>
+
+<div id="drop21" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Intention tremor</b></p>
+<br>
+<br>
+<br>
+<div id="drop22" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Rest tremor</b></p>
+<br>
+<br>
+<div id="drop23" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Postural/action tremor</b></p>
+<br>
+<br>
+<div id="drop24" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Intention tremor > Postural tremor > Rest tremor</b></p>
+
+
+<br>
+<br>
+
+
+<span id="drag21" data-div="drop22" draggable="true" ondragstart="drag(event)"><b>&emsp;Parkinsonism&emsp;</b></span></div>
+<span id="drag22" data-div="drop23" draggable="true" ondragstart="drag(event)"><b>&emsp;Essential tremor&emsp;</b></span></div>
+<span id="drag23" data-div="drop21" draggable="true" ondragstart="drag(event)"><b>&emsp;Cerebellar tremor&emsp;</b></span></div>
+<span id="drag24" data-div="drop24" draggable="true" ondragstart="drag(event)"><b>&emsp;Rubral tremor&emsp;</b></span></div>
+
+
+<br>
+<br>
+<input id="buttonQ2" type="button" value="Show me all the answers, please!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<form id="question3" name="question3">
+<p><b>Q3. Athethosis, chorea, and ballismus are characterized by motor impersistence (inability to maintain a posture).
+ The main difference between them is the speed and amplitude of the movement. Drag and drop the concepts into their corresponding category.</b>
+<br>
+<br>
+
+<div id="drop31" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Fast wide movements</b></p>
+<br>
+<br>
+<br>
+<div id="drop32" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Medium movements</b></p>
+<br>
+<br>
+<div id="drop33" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Slow small movements</b></p>
+
+
+<br>
+<br>
+
+
+<span id="drag31" data-div="drop32" draggable="true" ondragstart="drag(event)"><b>&emsp;Chorea&emsp;</b></span></div>
+<span id="drag32" data-div="drop31" draggable="true" ondragstart="drag(event)"><b>&emsp;Ballism&emsp;</b></span></div>
+<span id="drag33" data-div="drop33" draggable="true" ondragstart="drag(event)"><b>&emsp;Athetosis&emsp;</b></span></div>
+
+
+<br>
+<br>
+<input id="buttonQ3" type="button" value="Show me all the answers, please!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<h2>Dystonia</h2>
+<p>Now that you know how to identify the main types of movement disorders, let's focus on dystonia.</p>
+
+
+<br>
+<br>
+
+
+<form id="question4" name="question4">
+<p><b>Q4. What is dystonia?</b></p>
+<br>
+<input type="radio" id="q4" name="question" value="a"> Loss of tone in a region of the body (for example, the hand)<br>
+<input type="radio" id="q4" name="question" value="b"> Repetitive oscillating movements around a joint<br>
+<input type="radio" id="q4" name="question" value="c"> Sustained contraction of agonist and antagonist muscles leading to abnormal twisting postures<br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<br>
+<p id = "afterQ4_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question5" name="question5">
+<p><b>Q5. Regarding the characteristics of dystonia, check all correct answers below:</b></p>
+<br>
+<input type="checkbox" id="q5a" name="question" value="a"> The sensory trick consists of a predisposition and particular ability in patients with dystonia to perform magic tricks (guessing the right card from a deck, pull a rabbit out of a hat, etc.)<br>
+<input type="checkbox" id="q5b" name="question" value="b"> Overflow in patients with dystonia consists of their abnormal movements extending from one region to other regions of the body<br>
+<input type="checkbox" id="q5c" name="question" value="c"> Dystonia was considered to be a psychogenic disorder by prominent doctors in the late XIX century<br>
+<input type="checkbox" id="q5d" name="question" value="d"> Overflow in patients with dystonia consists of emotional overwhelming and crying with relatively minor stimuli<br>
+<input type="checkbox" id="q5e" name="question" value="e"> Dystonia can occur during one action, but not at all during a different action by the same muscles (for example, writing causes dystonia, but playing an instrument does not)<br>
+<input id="buttonQ5" type="button" value="Done!" onclick="checkQ5();">
+</form>
+
+<div id="after_submitQ5">
+<p id="answerQ5"></p>
+<br>
+<br>
+<p id = "afterQ5_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+<p>Dystonias can affect the <a target='_blank' rel='noopener noreferrer' href='https://static-content.springer.com/esm/art%3A10.1038%2Fng.3740/MediaObjects/41588_2017_BFng3740_MOESM205_ESM.mpg'>lower body</a>,
+ the <a target='_blank' rel='noopener noreferrer' href='https://static-content.springer.com/esm/art%3A10.1038%2Fng.3740/MediaObjects/41588_2017_BFng3740_MOESM206_ESM.mpg'>upper body</a> or
+ the <a target='_blank' rel='noopener noreferrer' href='https://static-content.springer.com/esm/art%3A10.1038%2Fng.3740/MediaObjects/41588_2017_BFng3740_MOESM207_ESM.mpg'>whole body</a>. These high-quality
+ videos are supplementary material in the excellent article on dystonia caused by the <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/27992417/'>KMT2B gene</a>.</p>
+
+
+<br>
+<br>
+
+
+<p>There are a few dystonias that affect children which are worth knowing about.</p>
+
+
+<br>
+<br>
+
+
+<form id="question6" name="question6">
+<p><b>Q6. After attending the lecture on dystonia you are able to diagnose any movement disorder. A colleague of yours sends you this 
+<a target='_blank' rel='noopener noreferrer' href='https://ars-els-cdn-com.ezproxy.bu.edu/content/image/1-s2.0-S088789941530271X-mmc2.mp4'>patient</a>
+ who has been having abnormal movements making walking and speaking challenging. These symptoms are worse later in the day. What is your suggested treatment?</b></p>
+<br>
+<input type="radio" id="q6" name="question" value="a"> Find points where sensory tricks will alleviate the symptoms and then make the child use the sensory trick whenever she has dystonia<br>
+<input type="radio" id="q6" name="question" value="b"> Try L-dopa<br>
+<input type="radio" id="q6" name="question" value="c"> This dystonia is severe. Go directly for deep brain stimulation<br>
+<input type="radio" id="q6" name="question" value="d"> First, find the specific genetic mutation and then offer genetic therapy<br>
+<input id="buttonQ6" type="button" value="Done!" onclick="checkQ6();">
+</form>
+
+<div id="after_submitQ6">
+<p id="answerQ6"></p>
+<br>
+<br>
+<p id = "afterQ6_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question7" name="question7">
+<p><b>Q7. You feel very proud that the patient responded to L-dopa and is now even able to
+ <a target='_blank' rel='noopener noreferrer' href='https://ars-els-cdn-com.ezproxy.bu.edu/content/image/1-s2.0-S088789941530271X-mmc3.mp4'>dance</a>,
+ although far from perfectly. What is the best next step?</b></p>
+<br>
+<input type="radio" id="q7" name="question" value="a"> Think about other metabolites in the dopa synthesis pathway, define the specific mollecular defect with genetic testing, and treat accordingly<br>
+<input type="radio" id="q7" name="question" value="b"> Recommend a more intense dancing and singing routine<br>
+<input type="radio" id="q7" name="question" value="c"> Stop L-dopa treatment and look for a different diagnosis<br>
+<input type="radio" id="q7" name="question" value="d"> Explain to the family that nothing else can be done and these are the limitations she is going to have for the rest of her life<br>
+<input id="buttonQ7" type="button" value="Done!" onclick="checkQ7();">
+</form>
+
+<div id="after_submitQ7">
+<p id="answerQ7"></p>
+<br>
+<br>
+<p id = "afterQ7_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question8" name="question8">
+<p><b>Q8. After word spreads of your prowess in movement disorders a different colleague sends you a different patient. This is a 
+ 15 year-old girl of European Jewish ancestry who started having abnormal gait at age 12 because one of her feet was twisted inward.
+ Over the following 5 years, the abnormal movement slowly progressed and now basically affects the whole body. There is no diurnal variation of the
+ symptoms. What do you expect to find in this patient?</b></p>
+<br>
+<input type="radio" id="q8" name="question" value="a"> Her age and unusual worsening of symptoms clearly suggest a psychogenic disorder to avoid going to High-School<br>
+<input type="radio" id="q8" name="question" value="b"> I would do an EEG. This could be a seizure that has been going on continuously for 5 years now. Always do an EEG! Even when it has no indication whatsoever! Epileptologists like to laugh<br>
+<input type="radio" id="q8" name="question" value="c"> The most common reason for her symptoms is sequelae of a perinatal hypoxia-ischemia which went undetected<br>
+<input type="radio" id="q8" name="question" value="d"> The most common reason for her symptoms is a GAG deletion in the TOR1A gene<br>
+<input id="buttonQ8" type="button" value="Done!" onclick="checkQ8();">
+</form>
+
+<div id="after_submitQ8">
+<p id="answerQ8"></p>
+<br>
+<br>
+<p id = "afterQ8_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<form id="question9" name="question9">
+<p><b>Q9. By now your fame in movement disorders has crossed borders. A doctor from another country sends you a child who started having
+ jerks at the age of 5 years. He occasionaly has dystonic posturing. The symptoms affect mainly the upper body and he has a relatively normal
+ gait and lower extremity function. While you examine him, you notice that he has to close the door three times (not two or four, always has to be three) when he enters a room.
+ Family history is incomplete because parents were polysubstance users and abandoned him in an orphanage. Your diagnosis is:</b></p>
+<br>
+<input type="radio" id="q9" name="question" value="a"> DYT11<br>
+<input type="radio" id="q9" name="question" value="b"> Sequelae from her rough childhood<br>
+<input type="radio" id="q9" name="question" value="c"> Structural brain lesion from a likely abnormal pregnancy and delivery<br>
+<input type="radio" id="q9" name="question" value="d"> Dopa-responsive dystonia<br>
+<input id="buttonQ9" type="button" value="Done!" onclick="checkQ9();">
+</form>
+
+<div id="after_submitQ9">
+<p id="answerQ9"></p>
+<br>
+<br>
+<p id = "afterQ9_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<p>What about treatment? Treatment of dystonia is symptomatic in most patients.
+<br>
+<br>
+First treatment: L-dopa/carbidopa. Always worth a try. If it is dopa-responsive dystonia you are going to diagnose and cure the disease. If not, many
+ other forms of dystonia partially respond to L-dopa. Always try.
+<br>
+<br>
+Symptomatic treatments: Trihexyphenidyl. Baclofen. Botulinum toxin.
+<br>
+<br>
+Other less established symptomatic treatments: Clonazepam. Carbamazepine. Dopamine antagonists. Dopamine depletors.
+<br>
+<br>
+Neurosurgery: For example, deep brain stimulation of the pallidus interna. When the surgical candidate is well chosen and the therapy works, it can be <a target='_blank' rel='https://static-content.springer.com/esm/art%3A10.1038%2Fng.3740/MediaObjects/41588_2017_BFng3740_MOESM215_ESM.mpg'>life-changing</a>.
+</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h2><b>SUMMARY</b></h2>
+<p><b>After reading this post, you have reviewed the main concepts in dystonia.</b></p>
+
+<br>
+<br>
+
+<p><b>You can classify and name the main symptoms in movement disorders. Importantly, you have a visual idea of how they look like.</b></p>
+
+<br>
+<br>
+
+<p><b>Dystonia is a sustained contraction of agonist and antagonist muscles leading to abnormal twisting postures. You now know that dystonia
+ can have unusual features which made doctors in the past believe it was of psychogenic origin: sensory trick, overflow, and task-specific symptoms.</b></p>
+
+
+<br>
+<br>
+
+
+<p><b>The main dystonias you should be aware of in children are: DYT1 (Jewish ancestry, evolution from one foot to whole body within 5 years),
+ DYT5 (evolution from one foot to the whole body, but diurnal variation with worse symptoms at night), and 
+ DYT11 (upper body involvement, myoclonus more prominent than dystonia, psychiatric history). All three of DYT1, DYT5, and DYT11
+ are autosomal dominant.</b></p>
+
+
+<br>
+<br>
+
+
+<p><b>Treatment of pediatric dystonia should always include a trial of L-dopa (DYT5 responds to it and others might respond partially).
+ Symptomatic treatment includes trihexyphenidyl, baclofen, and botulinum toxin. In well-selected patients, <a target='_blank' rel='noopener noreferrer' href='https://static-content.springer.com/esm/art%3A10.1038%2Fng.3740/MediaObjects/41588_2017_BFng3740_MOESM214_ESM.mpg'>neurosurgery can be life-changing</a>.</b></p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>

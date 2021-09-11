@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+
+
+<title>Pediatric stroke</title>
+<link href = "Pediatricstroke_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Pediatricstroke_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<h1>Pediatric stroke</h1>
+<p>In this post you will learn the main features of pediatric stroke.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question1" name="question1">
+<p><b>Q1. Pediatric stroke is rare. How rare is it really? Drag and drop to match the disease with its incidence. How frequent is pediatric stroke compared to other diseases?</b>
+<br>
+<br>
+
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>1,406-1,146/100,000</b></p>
+<br>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>482-546/100,000</b></p>
+<br>
+<br>
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>100-800/100,000</b></p>
+<br>
+<br>
+<div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>142-201/100,000</b></p>
+<br>
+<br>
+<div id="drop5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>29-50/100,000</b></p>
+<br>
+<br>
+<div id="drop6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>26-31/100,000</b></p>
+<br>
+<br>
+<div id="drop7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>4-6/100,000</b></p>
+<br>
+<br>
+<div id="drop8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>3-5/100,000</b></p>
+<br>
+<br>
+<div id="drop9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>2-4/100,000</b></p>
+
+<br>
+<br>
+
+<span id="drag1" data-div="drop7" draggable="true" ondragstart="drag(event)"><b>Pediatric stroke&emsp;</b></span></div>
+<span id="drag2" data-div="drop5" draggable="true" ondragstart="drag(event)"><b>Perinatal stroke&emsp;</b></span></div>
+<span id="drag3" data-div="drop9" draggable="true" ondragstart="drag(event)"><b>Pediatric stroke excluding neonates&emsp;</b></span></div>
+<br><br>
+<span id="drag4" data-div="drop6" draggable="true" ondragstart="drag(event)"><b>Stroke in the group of 20-44 years of age&emsp;</b></span></div>
+<span id="drag5" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>Stroke in the group of 45-64 years of age&emsp;</b></span></div>
+<br><br>
+<span id="drag6" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>Stroke in the group of 65-84 years of age&emsp;</b></span></div>
+<span id="drag7" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>Stroke in the group of 85 years of age or older&emsp;</b></span></div>
+<br><br>
+<span id="drag8" data-div="drop8" draggable="true" ondragstart="drag(event)"><b>Rolandic epilepsy&emsp;</b></span></div>
+<span id="drag9" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>Perinatal hypoxic-ischemic encephalopathy&emsp;</b></span></div>
+
+
+<br>
+<br>
+<input id="buttonQ1" type="button" value="Show me all the answers, please!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<form id="question2" name="question2">
+<p><b>Q2. In adult stroke, etiologies can be divided by source from the heart (for example, cardiac embolism), the large vessels (for example, atherothrombosis), the small vessels (for example, hypertensive small vessel disease), or the blood (for example, coagulation disorders). In children the same general classification applies, but the causes vary. Drag and drop the etiologies into their corresponding category.</b>
+<br>
+<br>
+
+<div id="drop21" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Heart (i.e., atrial fibrillation in adults)</b></p>
+<br>
+<br>
+<br>
+<div id="drop22" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Large vessels (i.e., carotid atherosclerosis in adults)</b></p>
+<br>
+<br>
+<div id="drop23" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Small vessel disease (i.e., lipohyalinosis in adults)</b></p>
+<br>
+<br>
+<div id="drop24" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Coagulation disorders (i.e., factor V Leiden in adults)</b></p>
+<br>
+<br>
+<div id="drop25" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Other (i.e., cocaine in adults)</b></p>
+
+
+<br>
+<br>
+
+<span id="drag21" data-div="drop25" draggable="true" ondragstart="drag(event)"><b>Meningitis&emsp;</b></span></div>
+<span id="drag22" data-div="drop21" draggable="true" ondragstart="drag(event)"><b>Congenital heart disease&emsp;</b></span></div>
+<br><br>
+<span id="drag23" data-div="drop23" draggable="true" ondragstart="drag(event)"><b>Moyamoya disease&emsp;</b></span></div>
+<span id="drag24" data-div="drop23" draggable="true" ondragstart="drag(event)"><b>Vasculitis&emsp;</b></span></div>
+<br><br>
+<span id="drag25" data-div="drop21" draggable="true" ondragstart="drag(event)"><b>Arrhythmia&emsp;</b></span></div>
+<span id="drag26" data-div="drop22" draggable="true" ondragstart="drag(event)"><b>Post-varicella stroke&emsp;</b></span></div>
+<br><br>
+<span id="drag27" data-div="drop24" draggable="true" ondragstart="drag(event)"><b>Sickle cell disease&emsp;</b></span></div>
+<span id="drag28" data-div="drop24" draggable="true" ondragstart="drag(event)"><b>Hyperhomocysteinemia&emsp;</b></span></div>
+<br><br>
+<span id="drag29" data-div="drop22" draggable="true" ondragstart="drag(event)"><b>Cervical trauma/dissection&emsp;</b></span></div>
+<span id="drag30" data-div="drop21" draggable="true" ondragstart="drag(event)"><b>Endocarditis&emsp;</b></span></div>
+<br><br>
+<span id="drag31" data-div="drop21" draggable="true" ondragstart="drag(event)"><b>Valvular disease&emsp;</b></span></div>
+<span id="drag32" data-div="drop24" draggable="true" ondragstart="drag(event)"><b>Lymphoma/cancer&emsp;</b></span></div>
+<span id="drag33" data-div="drop25" draggable="true" ondragstart="drag(event)"><b>Otitis media&emsp;</b></span></div>
+
+<br>
+<br>
+<input id="buttonQ2" type="button" value="Show me all the answers, please!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+<p>Apart from the etiologies we reviewed in question 2, remember that ECMO (apart from all the benefits it provides) is our stroke production machine: it may facilitate cardiac arrhythmias and cardiac thrombi,
+ it may damage large and small vessels (because of abrupt changes in blood pressure), it may cause both episodes of hypercoagulability, and
+ hypocoagulability, and it might facilitate infections across the whole cardiovascular system/ECMO circuit.<br>It is not surprising that stroke
+ occurs in approximately 10-60% of pediatric patients on ECMO as shown in <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/22421589/'>this</a> and <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/24189317/'>this</a> study.
+ Variability in the proportion of patients with stroke after ECMO depends on ECMO duration and neuroimaging studies and probably many more patients have subclinical strokes.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question3" name="question3">
+<p><b>Q3. Regarding the types of pediatric strokes, check all the correct statements:</b></p>
+<br>
+<input type="checkbox" id="q3a" name="question" value="a"> Pediatric ischemic strokes are more frequent in females<br>
+<input type="checkbox" id="q3b" name="question" value="b"> Pediatric hemorrhagic stroke has only one etiology: trauma<br>
+<input type="checkbox" id="q3c" name="question" value="c"> Among pediatric hemorrhagic strokes the majority are intracerebral hemorrhages rather than subarachnoid hemorrhages<br>
+<input type="checkbox" id="q3d" name="question" value="d"> Pediatric ischemic strokes are more frequent in males across all ages and stroke subtypes<br>
+<input type="checkbox" id="q3e" name="question" value="e"> Pediatric hemorrhagic stroke is better studied than pediatric ischemic stroke<br>
+<input type="checkbox" id="q3f" name="question" value="f"> The most common type of pediatric ischemic stroke is cerebral sinovenous thrombosis with arterial ischemic stroke being second in frequency<br>
+<input id="buttonQ3" type="button" value="Done!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+<br>
+<br>
+<p id = "afterQ3_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<p>How do strokes present in children? As a sudden onset of symptoms. Which symptoms?
+<br>
+In <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/9449480/'>this study</a>
+<br><br>
+<b>among 31 pediatric ischemic strokes:</b>
+<br>
+&ensp; sensory-motor hemiplegia: 48%
+<br>
+&ensp; dystonia: 45%
+<br>
+&ensp; aphasia: 45%
+<br>
+&ensp; pure motor hemiplegia: 42%
+<br>
+&ensp; headache: 38%
+<br>
+&ensp; seizures: 35%
+<br>
+&ensp; hemianopia: 6%
+<br>
+&ensp; cerebellar syndrome: 6%
+<br>
+&ensp; coma: 3%
+<br><br>
+<b>among 23 pediatric hemorrhagic strokes:</b>
+<br>
+&ensp; headache: 65% 
+<br>
+&ensp; sensory-motor hemiplegia: 60%
+<br>
+&ensp; aphasia: 39%
+<br>
+&ensp; seizures: 39%
+<br>
+&ensp; dystonia: 17%
+<br>
+&ensp; coma: 21%
+
+<br><br>
+Would you think about stroke in a patient who presents with acute/subacute headache? Although infrequent, make sure to have stroke in your differential diagnosis.
+<br>
+Would you think about stroke in a patient who presents with first time seizure and postictal lateralized paralysis? Although infrequent, make sure to have stroke in your differential diagnosis.
+</p>
+
+
+<br>
+<br>
+
+
+<form id="question4" name="question4">
+<p><b>Q4. Regarding the presentation of pediatric stroke, check all correct answers:</b></p>
+<br>
+<input type="checkbox" id="q4a" name="question" value="a"> I heard in a conference that stroke can present with headache in children. From now on, I am going to order head CT and CTA in each pediatric patient with acute onset of headache<br>
+<input type="checkbox" id="q4b" name="question" value="b"> Most children with stroke present with signs/symptoms which suggest a focal neurological deficit<br>
+<input type="checkbox" id="q4c" name="question" value="c"> A patient with post-ictal paresis after a seizure cannot, by definition, have a paresis because of an underlying stroke<br>
+<input type="checkbox" id="q4d" name="question" value="d"> It is sensible to order a head CT and CTA in children and adolescents with acute onset of headache, but only among those who smoke<br>
+<input type="checkbox" id="q4e" name="question" value="e"> Stroke is very rare in children and it does not have an effective treatment. It is not worth thinking about it in the differential diagnosis<br>
+<input type="checkbox" id="q4f" name="question" value="f"> Pediatric stroke very rarely presents with headaches only<br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<br>
+<p id = "afterQ4_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+<p>In neonates, the typical presentation of stroke is with seizures, lethargy/encephalopathy, and/or apnea.</p>
+
+
+<br>
+<br>
+
+
+<form id="question5" name="question5">
+<p><b>Q5. You are rotating in the neonatal ICU and are about to discharge a patient who had a relatively large perinatal arterial ischemic stroke and is now ready to go home after a prolonged hospitalization. Family asks about prognosis. Appropriate answers would be:</b></p>
+<br>
+<input type="checkbox" id="q5a" name="question" value="a"> If you think positively, everything will go well<br>
+<input type="checkbox" id="q5b" name="question" value="b"> Both the neonatal team at the hospital outpatient neonatal clinics and the primary pediatrician will closely follow development in the next months and years<br>
+<input type="checkbox" id="q5c" name="question" value="c"> Babies after a perinatal stroke can have epilepsy, but do not have delays in motor development<br>
+<input type="checkbox" id="q5d" name="question" value="d"> Babies like yours can have epilepsy, behavioral abnormalities, and delays in several areas of development and, unfortunately, it can take several months or years to fully understand the sequelae of the stroke<br>
+<input type="checkbox" id="q5e" name="question" value="e"> Children like this can have bad sequelae in other hospitals, but not in this hospital<br>
+<input type="checkbox" id="q5f" name="question" value="f"> If the EEG is normal, the baby is not going to have epilepsy<br>
+<input id="buttonQ5" type="button" value="Done!" onclick="checkQ5();">
+</form>
+
+<div id="after_submitQ5">
+<p id="answerQ5"></p>
+<br>
+<br>
+<p id = "afterQ5_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+<p>Perinatal stroke is a devastating condition associated with serious sequelae in most patients. After a perinatal stroke, expected outcomes are:
+<br>
+&ensp; cerebral palsy/motor deficits: 30-50%
+<br>
+&ensp; cognitive deficits: 50-60%
+<br>
+&ensp; epilepsy: 15-55%
+<br>
+<br>
+Stroke in non-neonates has somewhat better outcomes, but not much better with only approximately 
+ <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/10830198/'>one third having no deficits</a> and
+ approximately two thirds having a variable combination of motor, cognitive, and behavioral deficits.
+</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+
+
+<h2>Clinical cases</h2>
+
+
+<br>
+<br>
+
+
+<p>Ready to treat some patients? Calculate the <a target='_blank' rel='noopener noreferrer' href='https://www.mdcalc.com/pediatric-nih-stroke-scale-nihss'>Pediatric NIHSS</a>
+ and, if you think the patient has a stroke apply an appropriate therapy. Easy, right?</p>
+
+
+<br>
+<br>
+
+
+
+
+<p><a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/26969237/'>Supportive management of stroke includes</a>:
+<br>
+&ensp; Normal O2, normal CO2, normal pH
+<br>
+&ensp; Normothermia
+<br>
+&ensp; Normovolemia
+<br>
+&ensp; Euglycemia with goal 70-120 mg/dl
+<br>
+&ensp; Normal blood pressure with SBP goal 50th to 90th percentile for age
+<br>
+&ensp; Anticoagulation only if cardioembolic origin or cervicocephalic arterial dissection is suspected
+<br>
+<br>
+Apart from that, the management of pediatric stroke is not fully established yet
+</p>
+
+
+<br>
+<br>
+
+
+<form id="question6" name="question6">
+<p><b>Q6. During your weekend on-call you are urgently called to evaluate a patient with new onset of focal neurological symptoms.
+ The patient is a 9 year-old boy with sickle cell anemia. He had acute onset of right arm weakness, expressive aphasia
+ (seems to understand commands, but he does not produce language). Check all correct answers below:</b></p>
+<br>
+<input type="checkbox" id="q6a" name="question" value="a"> You should restrict liquids and aim for a low blood pressure in this patient<br>
+<input type="checkbox" id="q6b" name="question" value="b"> Primary stroke prevention (before his first stroke) in this child should have included regular blood transfusions or hydroxyurea to reduce hemoglobin S below 30%<br>
+<input type="checkbox" id="q6c" name="question" value="c"> Hemoglobin S should not be decreased after the first stroke. Therefore, transfusions or hydroxyurea are of no use after the first stroke<br>
+<input type="checkbox" id="q6d" name="question" value="d"> For suspected acute cerebral infarction, acute treatment includes blood transfusion to increase hemoglobin to 10 g/dl (if hemoglobin already at 10 g/dl, use exchange transfusion to reduce hemoglobin S to 15% and total hemoglobin to 10 g/dl)<br>
+<input type="checkbox" id="q6e" name="question" value="e"> Hydroxyurea is an alternative to repeated blood transfusions<br>
+<input type="checkbox" id="q6f" name="question" value="f"> Surgical revascularization is the treatment of choice after the third arterial ischemic stroke in sickle cell disease<br>
+<input id="buttonQ6" type="button" value="Done!" onclick="checkQ6();">
+</form>
+
+<div id="after_submitQ6">
+<p id="answerQ6"></p>
+<br>
+<figure>
+<img id="answerQ6_picture">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ6_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<p><a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/26156170/'>Would you treat this patient as they did in this case report</a>?</p>
+
+
+<br>
+<br>
+
+
+<p><a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/26969237/'>tPA is the recommended treatment in large hospitals</a>.</p>
+
+
+<br>
+<br>
+
+
+<p>Is that realistic when the <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/18802206/'>median time from symptom onset to diagnosis is 10-28 hours</a>,
+ <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/31481331/'>or 18 hours in recent studies</a> even in reference pediatric stroke centers?</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h2><b>SUMMARY</b></h2>
+<p><b>After reading this post, you have reviewed the main concepts in pediatric stroke.</b></p>
+
+<br>
+<br>
+
+<p><b>Epidemiology:<br>Pediatric stroke has an incidence of approximately 4-6/100,000, which is similar to the incidence of rolandic epilepsy.
+ Pediatric stroke in non-neonates is slightly less frequent with an incidence of 2-4/100,000 (still approximately the same incidence
+ as rolandic epilepsy). In contrast, perinatal stroke has a much higher incidence of 29-50/100,000, which is slightly higher than the
+ incidence of stroke in adults 20-44 years of age and approximately 2-4 times lower than the incidence of stroke in adults 45-64 years
+ of age. You can remember it as neonates having the incidence of stroke of roughly 50 year-old adults.</b></p>
+
+<br>
+<br>
+
+<p><b>Etiology:<br>Causes of pediatric stroke are heterogeneous and can be classified by origin:
+<br>
+ Heart: Endocarditis. Congenital heart disease. Valvulopathy. Arrhythmia. Cardiomyopathy.
+<br>
+ Blood vessels: Vasculitis. Post-varicella arteriopathy. Moyamoya disease. Focal arteriopathy of childhood. Takayasu arteritis. 
+<br>
+ Blood/coagulation disorders: Antiphospholipid antibodies. Sickle cell disease. Inherited prothrombotic and lipid abnormalities. Lymphoproliferative disorders.
+<br>
+ Other: Trauma. Infection. Cancer. Toxins. Surgery. Metabolic disorders (hyperhomocysteinemia, congenital disorders of glycosilation).
+<br>
+ ECMO combines multiple potential mechanisms for causing stroke including thrombi from heart and large vessels, fluctuations in blood pressure, iatrogenic coagulation
+ disorders, and the potential for disection, infection, and surgery. Therefore, 10-60% of pediatric patients on ECMO are found to have a stroke.
+</b></p>
+
+
+<br>
+<br>
+
+<p><b>Types of stroke:<br>Among ischemic stroke, arterial ischemic stroke represents approximately 80% and cerebral sinovenous thrombosis approximately 20% of cases.<br>
+Among hemorrhagic stroke, intracerebral stroke is 2-3 times more frequent than subarachnoid hemorrhage.
+</b></p>
+
+
+<br>
+<br>
+
+
+<p><b>Clinical presentation:<br>Stroke in children presents with the typical symptoms you expect in a stroke (hemiplegia, sensory loss, aphasia, hemianopia),
+ but also with symptoms which may be difficult to attribute to a stroke (dystonia, headache, seizures). A particularly difficult situation occurs with the
+ patient presenting with first time seizure with post-ictal paresis (and probably with altered mental status): is there a stroke as an etiology? Fortunately,
+ stroke is a rare cause of new-onset seizures in children and typically there are other focal neurological signs.<br>Keep stroke in your differential diagnosis
+ for acute/subacute presentations, but stroke is rare in non-neonate children without risk factors.</b></p>
+
+
+<br>
+<br>
+
+
+<p><b>Outcome:<br>Pediatric stroke is associated with serious sequelae including motor deficits, epilepsy, cognitive deficits, and behavioral disorders. Only
+ a minority of children with pediatric stroke (one third or less) remain with no serious sequelae. Remember that when informing families.</b></p>
+
+
+<br>
+<br>
+
+
+<p><b>Treatment:<br>How to manage pediatric stroke is an area of active research. The relative rarity of pediatric stroke and the marked delays to diagnosis (even
+ in large pediatric stroke centers) makes any study challenging. Although evidence is limited, if children are diagnosed before 4.5 hours, thrombolisis
+ might be a reasonable option in children at least 2 years of age with PedNIHSS>=4 and <=24, with proven infarct and arterial occlusion on neuroimaging
+ and no contraindications. Arterial thrombectomy is an option for children with large vessel occlussion. For patients with stroke in the context of
+ sickle cell disease, exchange transfusion is a very reasonable treatment.</b></p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+
+
+<title>Epilepsy</title>
+<link href = "Epilepsy_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Epilepsy_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<h1>Epilepsy for developmental and behavioral pediatricians</h1>
+<p>In this post you will learn the main features of epilepsy and how it affects development and behavior.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<p><b>Seizures do not necessarily mean epilepsy.</b></p>
+
+
+<br>
+<br>
+
+
+<form id="question1" name="question1">
+<p><b>Q1. A 14 year-old adolescent comes to your clinic because, just for fun, he likes to run toward the wall and hit his head hard against the wall.
+ Each time he hits his head on the wall he has a seizure. Seizures have never occurred out of that context. The next best step in avoiding new seizures is:</b></p>
+<br>
+<input type="radio" id="q1" name="question" value="a"> Start seizure medications. He is having seizures, therefore, he needs an antiseizure medication<br>
+<input type="radio" id="q1" name="question" value="b"> Stop hitting his head against the wall. These are provoked seizures and they will stop after the abnormal stimulus is stopped. No antiseizure medication is needed<br>
+<input id="buttonQ1" type="button" value="Done!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+<br>
+<br>
+<p id = "afterQ1_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+<p>The key concept here is that provoked seizures occur in a <b>normal brain</b>, but unprovoked seizures occur in an <b>abnormal brain, a brain with a predisposition to have more seizures</b>.
+ Remember, even if your brain is completely normal, if you hit your head hard enough against the wall you will have a seizure, if you take enough cocaine, you will have a seizure, and so on.
+ You do not need antiseizure medications, you should just stop being exposed to these abnormal stimuli and your seizures will go away (obviously, if you do those things long enough
+ your brain may be so abnormal that you may develop unprovoked seizures, but for now we are only considering the situation where the insults occur in the short term and you only have provoked seizures).</p>
+
+
+<br>
+<br>
+
+
+<form id="question2" name="question2">
+<p><b>Q2. True or false? Provoked seizures cannot make a diagnosis of epilepsy, no matter how many times they occur.</b></p>
+<br>
+<input type="radio" id="q2" name="question" value="a"> True<br>
+<input type="radio" id="q2" name="question" value="b"> False<br>
+<input id="buttonQ2" type="button" value="Done!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+<br>
+<br>
+<p id = "afterQ2_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+<p>What is epilepsy then? Epilepsy (loosely defined) is a disease of the brain in which there is a chronic predisposition to have unprovoked seizures.
+ Of course, the not loosely defined version is slightly more complicated. <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/24730690/'>The current official definition of epilepsy is here</a>.</p>
+
+
+<br>
+<br>
+
+
+<form id="question3" name="question3">
+<p><b>Q3. True or false? You can make a diagnosis of epilepsy without an EEG.</b></p>
+<br>
+<input type="radio" id="q3" name="question" value="a"> True<br>
+<input type="radio" id="q3" name="question" value="b"> False<br>
+<input id="buttonQ3" type="button" value="Done!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+<br>
+<br>
+<p id = "afterQ3_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<form id="question4" name="question4">
+<p><b>Q4. Regarding the definition of epilepsy, check all correct answers:</b></p>
+<br>
+<input type="checkbox" id="q4a" name="question" value="a"> If you have one unprovoked seizure and a structural brain lesion that causes epilepsy in most patients, you have epilepsy<br>
+<input type="checkbox" id="q4b" name="question" value="b"> If you have one unprovoked seizure and an EEG with epileptiform activity typically seen in the type of unprovoked seizure you had, you have epilepsy<br>
+<input type="checkbox" id="q4c" name="question" value="c"> If you have many provoked seizures and an EEG with epileptiform activity you have epilepsy<br>
+<input type="checkbox" id="q4d" name="question" value="d"> In rare cases, you can have epilepsy without seizures because you have an epilepsy syndrome in which you never had a seizure<br>
+<input type="checkbox" id="q4e" name="question" value="e"> You need an abnormal EEG to diagnose epilepsy<br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<br>
+<p id = "afterQ4_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+<p>As a general rule, you only use long-term treatment with antiseizure medication for epilepsy.</p>
+
+<br>
+<br>
+
+
+<form id="question5" name="question5">
+<p><b>Q5. Drag and drop the concepts into their corresponding category.</b>
+<br>
+<br>
+
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Provoked seizures</b></p>
+<br>
+<br>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Unprovoked seizures</b></p>
+<br>
+<br>
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Epilepsy</b></p>
+<br>
+<br>
+<div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Seizure disorder</b></p>
+
+
+<br>
+<br>
+
+
+<span id="drag1" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>Normal brain&emsp;</b></span></div>
+<span id="drag2" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>Seizure coming from an abnormal brain&emsp;</b></span></div>
+<br><br>
+<span id="drag3" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>In most situations, requires one or more unprovoked seizures&emsp;</b></span></div>
+<br><br>
+<span id="drag4" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>Symptomatic response of a normal brain to an abnormal stimulus&emsp;</b></span></div>
+<br><br>
+<span id="drag5" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>Not a medical term or diagnosis&emsp;</b></span></div>
+<span id="drag6" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>Take out of your vocabulary&emsp;</b></span></div>
+<br><br>
+<span id="drag7" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>Use of this terminology harms patients&emsp;</b></span></div>
+
+
+<br>
+<br>
+<input id="buttonQ5" type="button" value="Show me all the answers, please!" onclick="checkQ5();">
+</form>
+
+<div id="after_submitQ5">
+<p id="answerQ5"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+<p>Taking a seizure history takes time. In general, it is best to just describe how was the event. If there is a video of the event that is even better.</p>
+
+
+<br>
+<br>
+
+
+<form id="question6" name="question6">
+<p><b>Q6. Regarding seizure classification, check all correct answers below:</b></p>
+<br>
+<input type="checkbox" id="q6a" name="question" value="a"> You should always believe that seizures classified as 'generalized tonic-clonic' are generalized tonic-clonic, especially when there is no description of the event<br>
+<input type="checkbox" id="q6b" name="question" value="b"> Patients tend not to describe the seizure: ask them questions to describe the seizure (describe the situation when it happened, step by step movements, eyes open or close, how it started, how it progressed, one side more affected than the other)<br>
+<input type="checkbox" id="q6c" name="question" value="c"> The classification of seizures and epileptic syndromes is fixed and does not change<br>
+<input type="checkbox" id="q6d" name="question" value="d"> You should be very suspicious of the accuracy of a seizure classification in a clinical history where the seizure is classified but not described<br>
+<input type="checkbox" id="q6e" name="question" value="e"> Epilepsy is a clinical diagnosis and taking an appropriate clinical history is crucial<br>
+<input id="buttonQ6" type="button" value="Done!" onclick="checkQ6();">
+</form>
+
+<div id="after_submitQ6">
+<p id="answerQ6"></p>
+<br>
+<br>
+<p id = "afterQ6_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+<p><b>Always describe the seizure in detail.</b> If you want, you can also try to classify it using the most recent classification of
+ <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/28276060/'>seizure types</a> and
+ <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/28276062/'>epilepsy syndromes</a>, but that is not
+ crucial if you are not an epileptologist.</p>
+
+
+<br>
+<br>
+
+
+<p>Once you understood these very simple concepts, the evaluation of any type of seizures becomes straightforward:
+ if you have a patient with staring spells, <b>take a detailed description of the events</b> (when they happen, how long they last,
+ triggers if any, ability to respond during the event, etc.). With that information, refer to pediatric neurology. They
+ will decide what is the next step (if any).</p>
+
+
+<br>
+<br>
+
+
+<p>What if your patient has other types of seizures?: <b>take a detailed description of the events</b> (when they happen, how long they last,
+ triggers if any, ability to respond during the event, description of the movements if any, etc.). With that information, refer to pediatric neurology. They
+ will decide what is the next step (if any).</p>
+
+<br>
+<br>
+
+
+<form id="question7" name="question7">
+<p><b>Q7. A colleague of yours evaluates a patient with some abnormal movements. Your colleague suspicion for seizures is low, but, "to be sure", your colleague decides
+ to perform a routine EEG to "rule out epilepsy". The EEG results come back normal. Your colleague states: "we ruled out epilepsy". Your best response is:</b></p>
+<br>
+<input type="radio" id="q7" name="question" value="a"> Definitively! We ruled out epilepsy<br>
+<input type="radio" id="q7" name="question" value="b"> No. We did not rule out epilepsy<br>
+<input id="buttonQ7" type="button" value="Done!" onclick="checkQ7();">
+</form>
+
+<div id="after_submitQ7">
+<p id="answerQ7"></p>
+<br>
+<br>
+<p id = "afterQ7_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<form id="question8" name="question8">
+<p><b>Q8. You find your colleague (again). Your colleague is excited because your colleague just diagnosed a different patient with epilepsy.
+ The patient was a young man who presented with what appeared to be a syncope. The patient passed out in a context which highly suggested a
+ vasovagal syncope. However, your colleague "to be sure" performed an EEG and the EEG showed interictal epileptiform discharges. Your colleague
+ diagnosed the patient with epilepsy and started him on antiseizure medications. Your colleague is extremely proud of it. Your best response is:</b></p>
+<br>
+<input type="radio" id="q8" name="question" value="a"> Great job. Congratulations<br>
+<input type="radio" id="q8" name="question" value="b"> You should review the definition of epilepsy. Your patient does not meet a diagnosis of epilepsy and should not be on antiseizure medications<br>
+<input id="buttonQ8" type="button" value="Done!" onclick="checkQ8();">
+</form>
+
+<div id="after_submitQ8">
+<p id="answerQ8"></p>
+<br>
+<br>
+<p id = "afterQ8_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+<p><b>Can epilepsies cause developmental regression?</b> Glad you asked! Seizures, antiseizure medications, and epileptiform discharges can cause cognitive problems.
+<br>
+<br>
+Frequent seizures make it difficult for the child to learn (both because of missing school and because of the impact of seizures on the brain).
+<br>
+<br>
+Phenobarbital causes some impairment in all aspects of cognition. Topiramate causes some language impairment. Levetiracetam frequently causes behavioral dysregulation.
+<br>
+<br>
+Interictal epileptiform discharges can cause cognitive regression. Continuous spikes and waves during sleep is an epileptic encephalopathy in which there is
+ cognitive regression because epileptiform activity dysrupts sleep. Landau-Kleffner syndrome causes language regression because epileptiform activity
+ causes dysruption of temporal lobe function especially during sleep. Read more about that <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/23127259/'>here</a>.
+ Then, should epileptiform discharges be treated? Well, <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/26293670/'>it is complicated</a>.</p>
+
+
+<br>
+<br>
+
+
+<p>Treatment for ADHD, depression, or anxiety should not be modified because the patient has epilepsy or because the patient is on antiseizure medications
+ unless there are specific contraindications. Some SSRIs reduce seizure threshold, but generally a patient with epilepsy will not have more seizures because of that
+ if they take their antiseizure medications. When in doubt, talk to the pediatric neurologist, but in general, you should not change your behavioral medications
+ because the patient has epilepsy or because the patient is on antiseizure medications.</p>
+
+
+<br>
+<br>
+
+
+<p><a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/33842079/'>One in three people with epilepsy have at least a psychiatric diagnosis during their lifetime</a>
+ and the presence of these psychiatric problems is a bad prognostic sign. Screen for psychiatric diagnoses in people with epilepsy.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h2><b>SUMMARY</b></h2>
+<p><b>After reading this post, you have reviewed the main concepts in epilepsy.</b></p>
+
+<br>
+<br>
+
+<p><b>Describe the seizure. Describe the seizure. Always describe the seizure. The more detail the better. If there is a video that is ideal.
+ Classifying the seizure is less important than describing the seizure. Take a good history.</b></p>
+
+<br>
+<br>
+
+<p><b>Epilepsy is a clinical diagnosis. Take a good history. If you are not a neurologist, you do not have to make the decision to classify an event as a seizure or a clinical
+ presentation as epilepsy, or to decide whether the patient needs antiseizure medications, but you definitively are responsible for taking a good history and
+ obtain a proper description of the events.</b></p>
+
+
+<br>
+<br>
+
+
+<p><b>Make the world a better place: erradicate 'seizure disorder' and other aberrant terminology from medicine.</b></p>
+
+
+<br>
+<br>
+
+
+<p><b>EEGs typically help in the field of epilepsy. However, they are not necessary or sufficient to make a diagnosis of epilepsy. Epilepsy is a clinical diagnosis.</b></p>
+
+
+<br>
+<br>
+
+
+<p><b>Cognitive and behavioral problems are frequent in patients with epilepsy. Epilepsy is frequent in patients with developmental delay. In general,
+ you should not change your behavioral medications because the patient has epilepsy or is on antiseizure medications. However, if you have a concern
+ that the patient is doing worse than before, check with your pediatric neurologist if the antiseizure medications (especially phenobarbital,
+ topiramate, or levetiracetam) are negatively influencing cognition or behavior in your patient.</b></p>
+
+
+<br>
+<br>
+
+
+<p><b>Epileptiform discharges can cause regression. If you think your patient is regressing, consult the pediatric neurologist. There are many causes of regression
+ and generally none of them is good. A child with regression should always be evaluated by the pediatric neurologist.</b></p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>
