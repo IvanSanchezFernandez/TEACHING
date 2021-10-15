@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+
+
+<title>Memory</title>
+<link href = "Memory_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Memory_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<h1>Memory</h1>
+<p>A 9 year-old boy presents with a chief complaint of subacute memory deficits. In particular, the family explains that for, approximately, the last 2 weeks, he
+ has not been himself, his behavior is abnormal and he tends to forget things.
+ <br> 
+ <br>
+ With a chief complaint of <b>subacute memory deficits and subacute personality change</b>, let's think about the potential etiologies within the major etiological categories: 
+ <br>
+ -Traumatic 
+ <br>
+ -Vascular
+ <br>
+ -Epileptic
+ <br>
+ -CSF circulation
+ <br>
+ -Toxic/metabolic
+ <br>
+ -Infectious
+ <br>
+ -Inflammatory
+ <br>
+ -Neoplastic
+ <br>
+ -Degenerative
+ <br>
+ -Psychogenic
+</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h1>Memory 1</h1>
+<p><a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/25929634/'>The patient</a> has been complaining about mild, diffuse headaches for approximately 2 weeks. The memory deficits are described as asking the same questions over
+ and over again as if he forgot what was just explained to him. His personality change is vaguely described as "not being himself" and behaving in a
+ socially outgoing manner when, at baseline, he tends to be shy. During hospital admission, he presented
+ several paroxysmal episodes of oromotor sensory symptoms in the perioral region with altered awareness which lasted 30-90 seconds each.
+ Shortly after admission, he developed weakness in right lower extremity which made walking difficult. 
+<br>
+<br>
+Diagnosed as having a Hodgkin lymphoma 3 months ago on adriamycin, bleomycin, vinblastine, and dacarbazine.
+ <br>
+ <br>
+ Normal brain MRI.
+ <br>
+ Normal CSF including negative HSV.
+ <br>
+ Normal EEG.
+ <br>
+ <br>
+ <br>
+ <br>
+Insomnia and visual hallucinations.
+ <br>
+Repeat brain MRI at 19 days after onset <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/25929634/'>in Figure 1 here</a>.
+ <br>
+Repeat EEG at 19 days after onset showed diffuse slowing with no epileptiform discharges.
+ <br>
+Repeat CSF at 19 days after onset was normal (oligoclonal bands were not done).
+<br>
+Anti-NMDA antibodies in serum were negative.
+ <br>
+ <br>
+ <br>
+ <br>
+Treatment with IV methylprednisolone and IVIG not successful. Progressive weakness, autonomic dysfunction, and death 30 days after onset.
+Case based on <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/25929634/'>this case report</a>.
+</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question1" name="question1">
+<p><b>Q1. What is the most likely etiology in this case?</b></p>
+<br>
+<input type="radio" id="q1" name="question" value="a"> Traumatic<br>
+<input type="radio" id="q1" name="question" value="b"> Psychogenic<br>
+<input type="radio" id="q1" name="question" value="c"> Infectious/inflammatory/neoplastic<br>
+<input id="buttonQ1" type="button" value="Done!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+<br>
+<br>
+<p id = "afterQ1_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question2" name="question2">
+<p><b>Q2. The authors of the case report above classified this case as paraneoplastic limbic encephalitis. How often is limbic encephalitis a paraneoplastic syndrome in children?</b></p>
+<br>
+<input type="radio" id="q2" name="question" value="a"> Most cases of limbic encephalitis in children are paraneoplastic<br>
+<input type="radio" id="q2" name="question" value="b"> Approximately two thirds of cases of limbic encephalitis in children are paraneoplastic<br>
+<input type="radio" id="q2" name="question" value="c"> Approximately half of cases of limbic encephalitis in children are paraneoplastic<br>
+<input type="radio" id="q2" name="question" value="d"> Approximately one third of cases of limbic encephalitis in children are paraneoplastic<br>
+<input type="radio" id="q2" name="question" value="e"> Most cases of cases of limbic encephalitis in children are not paraneoplastic<br>
+<input id="buttonQ2" type="button" value="Done!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+<br>
+<br>
+<p id = "afterQ2_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<h1>Memory 2</h1>
+<p><a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/22554258/'>The patient</a> presented with confusion, behavioral change,
+ and sleep disturbance. The patient had fever, hypertension, and hyponatremia 7 days before onset of confusion and behavioral change.
+<br>
+<br>
+Brain MRI showed T2 hyperintensity in bilateral hippocampi shown in Figure 1 <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/22554258/'>here</a>.
+<br>
+<br>
+HHV6 PCR positive in blood, but not CSF.</p>
+
+<br>
+<br>
+<br>
+<br>
+
+<form id="question3" name="question3">
+<p><b>Q3. Does this patient have limbic encephalitis caused by HHV6 infection?</b></p>
+<br>
+<input type="radio" id="q3" name="question" value="a"> Definitively yes<br>
+<input type="radio" id="q3" name="question" value="b"> Definitively no<br>
+<input type="radio" id="q3" name="question" value="c"> Definitively maybe<br>
+<input id="buttonQ3" type="button" value="Done!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+<br>
+<br>
+<p id = "afterQ3_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<p>Patient treated with ganciclovir and foscarnet for 5 months.
+<br>
+<br>
+Hyponatremia and altered mental status present for 4 months.
+<br>
+<br>
+Several CSF samples over time negative for HHV6 PCR.
+<br>
+<br>
+After 11 months from clinical onset, patient developed refractory epilepsy with generalized tonic seizures, severe cognitive regression
+ becoming non-verbal and needing assistance with all activities of daily living.
+<br>
+<br>
+At 11 months from clinical onset, HHV6 PCR negative in blood and CSF. Negative markers of CSF inflammation including
+ normal neopterin. Negative VGKC, NMDA-R, anti-Hu, anti-Ma2, anti-CRMP5, antiamphiphysin, and antithyroid antibodies. 
+<br>
+<br>
+Patient treated with monthly methylprednisolone for 3 months and then monthly IVIG for 3 months with no improvement.
+<br>
+<br>
+Severe residual cognitive function.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question4" name="question4">
+<p><b>Q4. Regarding limbic encephalitis caused by HHV6 infection mark all correct answers:</b></p>
+<br>
+<input type="checkbox" id="q4a" name="question" value="a"> Postmortem studies of patients dying after HHV6 encephalitis show infiltration of lymphocytes and macrophages suggesting an ongoing inflammatory process<br>
+<input type="checkbox" id="q4b" name="question" value="b"> All patients with HHV6 encephalitis respond to immunotherapy<br>
+<input type="checkbox" id="q4c" name="question" value="c"> All patients with HHV6 encephalitis respond to ganciclovir or foscarnet<br>
+<input type="checkbox" id="q4d" name="question" value="d"> A hypothesis postulates that HHV6 replicates and causes inflammation in the CNS at a level below the threshold for detection in the CSF<br>
+<input type="checkbox" id="q4e" name="question" value="e"> HHV6 encephalitis occurs only in immunosupressed patients<br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<br>
+<p id = "afterQ4_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<h1>Memory 3</h1>
+<p><a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/12486279/'>The patient</a> presented with difficulty finding her
+ way even in familiar surroundings. She also had forgetfulness of recent events. The symptoms progressed for a month until she was
+ disoriented everywhere except in the immediate neighborhood of her own home and could not recall events that occurred several minutes before.
+<br>
+<br>
+Normal physical exam and neurological exam. 
+<br>
+<br>
+Formal neuropsychological evaluation showed topographical disorientation, amnesia (retrograde for 2 years and anterograde), and inattention.
+<br>
+<br>
+Brain MRI showed T2 hyperintensity in bilateral hippocampi, the right retrosplenial region, and the right inferior precuneus as shown in Figure 1 <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/12486279/'>here</a>.
+<br>
+<br>
+Normal EEG.
+<br>
+<br>
+Normal CSF.
+<br>
+<br>
+Positive anti-Hu antibody in serum.
+<br>
+<br>
+Negative neoplastic work-up.
+<br>
+<br>
+Patient died within a year. <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/12486279/'>Truly fascinating case report</a>.
+</p>
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<h1>Memory 4</h1>
+<p>The patient presented with 2 weeks of progressive memory deficits (asking repeatedly the same questions), personality change (socially outgoing when normally
+ shy at baseline), prominent drooling, slurred speech, and weakness in right upper extremity. No infection, fever, headaches, or unsteadiness. No similar episodes
+ in the past.
+<br>
+<br>
+On physical exam:
+<br>
+-Perseveration
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question5" name="question5">
+<p><b>Q5. How do you test for perseveration? Mark all correct answers:</b></p>
+<br>
+<input type="checkbox" id="q5a" name="question" value="a"> Luria manual sequencing task<br>
+<input type="checkbox" id="q5b" name="question" value="b"> Copy drawing<br>
+<input type="checkbox" id="q5c" name="question" value="c"> Written alternating sequencing task<br>
+<input type="checkbox" id="q5d" name="question" value="d"> Perseveration can only be diagnosed at autopsy<br>
+<input type="checkbox" id="q5e" name="question" value="e"> Tasks which require a repeated sequence of alternating actions<br>
+<input id="buttonQ5" type="button" value="Done!" onclick="checkQ5();">
+</form>
+
+<div id="after_submitQ5">
+<p id="answerQ5"></p>
+<br>
+<br>
+<p id = "afterQ5_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+-Inattention
+<br>
+-Deficits in executive function and planning
+<br>
+-Deficits in visuospatial function
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question6" name="question6">
+<p><b>Q6. How do you test for inattention, deficits in executive function and planning, and deficits in visuospatial function? Mark all correct answers:</b></p>
+<br>
+<input type="checkbox" id="q6a" name="question" value="a"> Sensation to pinprick and vibration<br>
+<input type="checkbox" id="q6b" name="question" value="b"> Finger to nose test<br>
+<input type="checkbox" id="q6c" name="question" value="c"> Behavior<br>
+<input type="checkbox" id="q6d" name="question" value="d"> Formal tests of attention, executive function, planning, and visuospatial function<br>
+<input type="checkbox" id="q6e" name="question" value="e"> Corneal reflex<br>
+<input id="buttonQ6" type="button" value="Done!" onclick="checkQ6();">
+</form>
+
+<div id="after_submitQ6">
+<p id="answerQ6"></p>
+<br>
+<br>
+<p id = "afterQ6_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+-Dysarthria
+<br>
+-Mild right facial droop with drooling
+<br>
+-Tongue deviation to the right side
+<br>
+-Pronator drift on the right upper extremity
+<br>
+-Weakness and dysmetria in right upper extremity
+<br>
+-Mild difficulties with tandem gait
+<br>
+<br>
+Long-term EEG showed continuous generalized slowing with bitemporal focal slowing.
+<br>
+<br>
+<img src="1.png">
+<br>
+<br>
+<img src="2.png">
+<br>
+<br>
+<img src="3.png">
+<br>
+<br>
+<br>
+<br>
+Brain MRI showed T2 hyperintensity in the mesial temporal lobes and mesial frontal lobes
+<br>
+<br>
+<img src="4.png">
+</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question7" name="question7">
+<p><b>Q7. If you think this could be infectious, let us know the tests you would order to evaluate that possibility</b></p>
+<br>
+<input id="buttonQ7" type="button" value="Give me the answer!" onclick="checkQ7();">
+</form>
+
+<div id="after_submitQ7">
+<p id="answerQ7"></p>
+<br>
+<br>
+<p id = "afterQ7_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question8" name="question8">
+<p><b>Q8. If you think this could be immune-mediated, let us know the tests you would order to evaluate that possibility</b></p>
+<br>
+<input id="buttonQ8" type="button" value="Give me the answer!" onclick="checkQ8();">
+</form>
+
+<div id="after_submitQ8">
+<p id="answerQ8"></p>
+<br>
+<br>
+<p id = "afterQ8_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+<p>
+Where do you localize the right facial and right tongue paralysis?
+<br>
+<br>
+<b>Social determinants of health</b>.
+<br>
+-Lives in house with rats
+<br>
+-Father working constantly
+<br>
+-Mother constantly caring for 6 children
+<br>
+-Limited ability to attend medical appointments
+<br>
+-Limited culture does not allow to recognize severity of medical condition
+<br>
+-Limited resources to obtain needed services like PT, OT, ST
+<br>
+<br>
+<br>
+<br>
+Treatment: Methylprednisolone, IVIG --> Rituximab
+</p>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<h2><b>SUMMARY</b></h2>
+<p><b>Limbic encephalitis in children is rare, very rare. A study from 12 hospitals in 4 European countries for 3 years <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/20959359/'>found a total of 10 patients with pediatric limbic encephalitis</a>. As study on anti-Hu antibodies from the centralized laboratory in France for 11 years <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/23658383/'>found 243 cases in adults and 8 cases in children</a>.";
+<br>
+<br>
+In children, only a minority of limbic encephalitis are paraneoplastic. However, a neoplastic screening should be conducted.
+<br>
+<br>
+Viruses like HHV6 can potentially cause a direct acute infection of the limbic area, an acute parainfectious immune reaction, or a slow progressive infection/inflammation process and it is not clear which one(s) is the cause for HHV6 limbic encephalitis. Maybe a combination of these mechanisms.
+<br>
+<br>
+The clinical presentation of limbic encephalitis can be very unusual <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/12486279/'>very unusual</a>.
+<br>
+<br>
+Perseveration, inattention, executive function, planning, and visuospatial functions can be easily tested at bedside. 
+<br>
+<br>
+There are many unknowns in pediatric limbic encephalitis
+<br>
+<br>
+<a target='_blank' rel='noopener noreferrer' href='https://youtu.be/Ptj8JrqgcG4'>Patient perspective</a>.
+</b></p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>
