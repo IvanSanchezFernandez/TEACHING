@@ -181,6 +181,26 @@ function checkQ8() {
 
 
 
+function checkQ9() {
+
+	if (document.question9.question.value == "a") {
+		document.getElementById("after_submitQ9").style.visibility = "visible";
+		document.getElementById("answerQ9").innerHTML = "Correct!! <br><br>See panel 2 <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/26906964/'>here</a> and table 4 <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/31953309/'>here</a>. ";
+		document.getElementById("after_submitQ9").style.background = "lightgreen";
+		document.getElementById("afterQ9_picture").innerHTML = "<br><br> Great job!";
+
+}	else {
+		document.getElementById("after_submitQ9").style.visibility = "visible";
+		document.getElementById("answerQ9").innerHTML = "No!";
+		document.getElementById("after_submitQ9").style.background = "red";
+		document.getElementById("afterQ9_picture").innerHTML = "Try again!";
+
+}
+
+}
+
+
+
 
 
 
