@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+
+
+<title>Atrophy</title>
+<link href = "Atrophy_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Atrophy_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+<br>
+<br>
+<br>
+<br>
+
+<form id="question1" name="question1">
+<p><b>Q1. The coronal and axial images in each row belong to the same brain MRI. Match the images with the appropriate patient.</b>
+<br>
+<br>
+<figure>
+	<img id="atrophy_1" src="atrophy_1.png">
+</figure>
+<br clear="all" />
+<br>
+<br>
+<figure>
+	<img id="atrophy_2" src="atrophy_2.png">
+</figure>
+<br clear="all" />
+<br>
+<br>
+<br>
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Patient with memory deficits, inappropriate social behavior, lack of judgment, loss of inhibition, and perseveration</b></p>
+<br>
+<br>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Asymptomatic healthy patient with no deficits</b></p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<span id="drag1" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Upper images&emsp;</b></span></div>
+<br><br>
+<span id="drag2" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Lower images&emsp;</b></span></div>
+<br>
+<br>
+<input id="buttonQ1" type="button" value="Show me all the answers, please!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+<h1>Atrophy</h1>
+<p>A 9 year-old boy presents to the emergency room because for approximately the last 2 weeks he has not been himself, his behavior is abnormal and he tends to forget things (repeatedly asks the same questions), his personality has changed (now he is socially outgoing when normally he is shy at baseline), has prominent drooling, slurred speech, and weakness in right upper extremity. No infection, fever, headaches, or unsteadiness. No prior similar episodes.
+ <br> 
+ <br>
+ With a chief complaint of <b>subacute memory deficits and subacute personality change</b>, let's think about the potential etiologies within the major etiological categories: 
+ <br>
+ -Traumatic 
+ <br>
+ -Vascular
+ <br>
+ -Epileptic
+ <br>
+ -CSF circulation
+ <br>
+ -Toxic/metabolic
+ <br>
+ -Infectious
+ <br>
+ -Inflammatory
+ <br>
+ -Neoplastic
+ <br>
+ -Degenerative
+ <br>
+ -Psychogenic
+</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+<p>
+<br>
+<br>
+<b>On physical exam the patient presented</b>:
+<br>
+-Perseveration
+
+<br>
+<br>
+
+
+<form id="question2" name="question2">
+<p><b>Q2. How do you test for perseveration? Mark all correct answers:</b></p>
+<br>
+<input type="checkbox" id="q2a" name="question" value="a"> Luria manual sequencing task<br>
+<input type="checkbox" id="q2b" name="question" value="b"> Copy drawing<br>
+<input type="checkbox" id="q2c" name="question" value="c"> Written alternating sequencing task<br>
+<input type="checkbox" id="q2d" name="question" value="d"> Perseveration can only be diagnosed at autopsy<br>
+<input type="checkbox" id="q2e" name="question" value="e"> Tasks which require a repeated sequence of alternating actions<br>
+<input id="buttonQ2" type="button" value="Done!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+<br>
+<br>
+<p id = "afterQ2_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+
+
+-Inattention
+<br>
+<br>
+-Deficits in executive function and planning
+<br>
+<br>
+-Deficits in visuospatial function
+<br>
+<br>
+-<a target='_blank' rel='noopener noreferrer' href='https://www.yout-ube.com/watch?v=SriryvkbU9c'>Dysarthria</a>
+<br>
+<br>
+-Pronator drift on the right upper extremity
+<br>
+<br>
+-Weakness and dysmetria in right upper extremity
+<br>
+<br>
+-Mild difficulties with tandem gait
+<br>
+<br>
+-Mild right facial droop with drooling. Learn about the localization of <a target='_blank' rel='noopener noreferrer' href='https://www.yout-ube.com/watch?v=5T4G27xkckE'>facial palsy</a>
+<br>
+<br>
+-Tongue deviation to the right side. Learn about the localization of <a target='_blank' rel='noopener noreferrer' href='https://www.yout-ube.com/watch?v=QJmhJHtKug8'>tongue deviation</a>
+<br>
+<br>
+
+<form id="question3" name="question3">
+<p><b>Q3. Where do you localize the facial and tongue paralysis?</b></p>
+<br>
+<input type="radio" id="q3" name="question" value="a"> Upper motor neuron left hemisphere<br>
+<input type="radio" id="q3" name="question" value="b"> Lower motor neuron left VII and XII cranial nerves<br>
+<input type="radio" id="q3" name="question" value="c"> Upper motor neuron right hemisphere<br>
+<input type="radio" id="q3" name="question" value="d"> Lower motor neuron right VII and XII cranial nerves<br>
+<input id="buttonQ3" type="button" value="Done!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+<br>
+<br>
+<p id = "afterQ3_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+Long-term EEG showed continuous generalized slowing with bitemporal focal slowing.
+<br>
+<br>
+<img src="atrophy_3.png">
+<br>
+<br>
+<img src="atrophy_4.png">
+<br>
+<br>
+<img src="atrophy_5.png">
+<br>
+<br>
+<br>
+<br>
+Brain MRI showed T2 hyperintensity in the mesial temporal lobes and mesial frontal lobes
+<br>
+<br>
+<img src="atrophy_6.png">
+</p>
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question4" name="question4">
+<p><b>Q4. If you think this could be infectious, let us know the tests you would order to evaluate that possibility</b></p>
+<br>
+<input id="buttonQ4" type="button" value="Give me the answer!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<br>
+<p id = "afterQ4_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question5" name="question5">
+<p><b>Q5. If you think this could be immune-mediated, let us know the tests you would order to evaluate that possibility</b></p>
+<br>
+<input id="buttonQ5" type="button" value="Give me the answer!" onclick="checkQ5();">
+</form>
+
+<div id="after_submitQ5">
+<p id="answerQ5"></p>
+<br>
+<br>
+<p id = "afterQ5_picture"></p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form id="question6" name="question6">
+<p><b>Q6. Can you diagnose autoimmune limbic encephalitis with all autoantibodies being negative?</b></p>
+<br>
+<input type="radio" id="q6" name="question" value="a"> Yes<br>
+<input type="radio" id="q6" name="question" value="b"> No<br>
+<input id="buttonQ6" type="button" value="Done!" onclick="checkQ6();">
+</form>
+
+<div id="after_submitQ6">
+<p id="answerQ6"></p>
+<br>
+<br>
+<p id = "afterQ6_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<p>
+Treatment: Methylprednisolone, IVIG --> Rituximab
+</p>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form id="question7" name="question7">
+<p><b>Q7. What symptom is missing in this child?</b></p>
+<br>
+<input type="radio" id="q7" name="question" value="a"> Visual hallucinations<br>
+<input type="radio" id="q7" name="question" value="b"> Language deficits<br>
+<input type="radio" id="q7" name="question" value="c"> Anorexia<br>
+<input type="radio" id="q7" name="question" value="d"> Seizures<br>
+<input id="buttonQ7" type="button" value="Done!" onclick="checkQ7();">
+</form>
+
+<div id="after_submitQ7">
+<p id="answerQ7"></p>
+<br>
+<br>
+<p id = "afterQ7_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<h2><b>SUMMARY</b></h2>
+<p><b>Limbic encephalitis in children is rare, very rare. A study from 12 hospitals in 4 European countries for 3 years <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/20959359/'>found a total of 10 patients with pediatric limbic encephalitis</a>. As study on anti-Hu antibodies from the centralized laboratory in France for 11 years <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/23658383/'>found 243 cases in adults and 8 cases in children</a>.";
+<br>
+<br>
+In children, only a minority of limbic encephalitis are paraneoplastic. However, a neoplastic screening should be conducted.
+<br>
+<br>
+The clinical presentation of limbic encephalitis can be very unusual <a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/12486279/'>very unusual</a>.
+<br>
+<br>
+There are many unknowns in pediatric limbic encephalitis
+<br>
+<br>
+<a target='_blank' rel='noopener noreferrer' href='https://youtu.be/Ptj8JrqgcG4'>Patient perspective of immune-mediated encephalitis</a>.
+</b></p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>
