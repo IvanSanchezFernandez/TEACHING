@@ -46,7 +46,7 @@ function checkQ2() {
 
 	if (document.getElementById("q2a").checked == true && document.getElementById("q2b").checked == false && document.getElementById("q2c").checked == true && document.getElementById("q2d").checked == false && document.getElementById("q2e").checked == true) {
 		document.getElementById("after_submitQ2").style.visibility = "visible";
-		document.getElementById("answerQ2").innerHTML = "Yes! <br><br>Perseveration represents a dysfunction of the frontal lobe making it difficult to change tasks.<br><br>Testing for it requires activities in which the patient is asked to <a target='_blank' rel='noopener noreferrer' href='https://learninglink.oup.com/access/content/the-neuroexam-video/neuroscience-sequencing-tasks-and-frontal-release-signs?previousFilter=tag_09-sequencing-tasks-and-frontal-release-signs'>switch between tasks</a>.";
+		document.getElementById("answerQ2").innerHTML = "Yes! <br><br>Perseveration represents a dysfunction of the frontal lobe making it difficult to change tasks.<br><br>Testing for it requires activities in which the patient is asked to <a target='_blank' rel='noopener noreferrer' href='https://learninglink.oup.com/access/content/the-neuroexam-video/neuroscience-sequencing-tasks-and-frontal-release-signs?previousFilter=tag_09-sequencing-tasks-and-frontal-release-signs'>switch between tasks like the writing alternating sequencing task, manual alternating sequencing task</a>.";
 		document.getElementById("after_submitQ2").style.background = "lightgreen";
 		document.getElementById("afterQ2_picture").innerHTML = "Great job!";
 
@@ -91,7 +91,7 @@ function checkQ3() {
 
 function checkQ4() {
 		document.getElementById("after_submitQ4").style.visibility = "visible";
-		document.getElementById("answerQ4").innerHTML = "Influenza A, Influenza B<br>RSV<br>Parainfluenza 1, Parainfluenza 2, Parainfluenza 3, Parainfluenza 4<br>Human metapneumovirus<br>Adenovirus<br>Bordetella pertussis, Bordetella parapertussis<br>Chlamidia pneumoniae<br>Mycoplasma pneumoniae<br>Coronavirus 229E, Coronavirus HKU1, Coronavirus NL63, Coronavirus OC43<br>Rhinovirus<br>MRSA<br><br>E.coli K1<br>H.influenzae<br>L.monocytogenes<br>N.meningitidis<br>S.agalactiae<br>S.pneumoniae<br>CMV<br>Enterovirus<br>HSV1, HSV2, HSV6<br>Human parechovirus<br>VZV<br>C.neoformans, C.gatii<br><br>M.pneumoniae<br>EBV<br>Lymphocytic chroriomeningitis<br>B.burgdorgferi<br>B.hensealae, B.quintana<br>WNV<br>CMV<br>Syphilis<br>HIV<br>EEEV<br>California encephalitis virus<br>Saint Louis encephalitis<br>WEEV<br>SARSCOV-2";
+		document.getElementById("answerQ4").innerHTML = "We ordered:<br><br>Influenza A, Influenza B<br>RSV<br>Parainfluenza 1, Parainfluenza 2, Parainfluenza 3, Parainfluenza 4<br>Human metapneumovirus<br>Adenovirus<br>Bordetella pertussis, Bordetella parapertussis<br>Chlamidia pneumoniae<br>Mycoplasma pneumoniae<br>Coronavirus 229E, Coronavirus HKU1, Coronavirus NL63, Coronavirus OC43<br>Rhinovirus<br>MRSA<br><br>E.coli K1<br>H.influenzae<br>L.monocytogenes<br>N.meningitidis<br>S.agalactiae<br>S.pneumoniae<br>CMV<br>Enterovirus<br>HSV1, HSV2, HSV6<br>Human parechovirus<br>VZV<br>C.neoformans, C.gatii<br><br>M.pneumoniae<br>EBV<br>Lymphocytic chroriomeningitis<br>B.burgdorgferi<br>B.hensealae, B.quintana<br>WNV<br>CMV<br>Syphilis<br>HIV<br>EEEV<br>California encephalitis virus<br>Saint Louis encephalitis<br>WEEV<br>SARSCOV-2";
 		document.getElementById("after_submitQ4").style.background = "lightgreen";
 		document.getElementById("afterQ4_picture").innerHTML = "Great job!";
 	}
@@ -105,7 +105,7 @@ function checkQ4() {
 
 function checkQ5() {
 		document.getElementById("after_submitQ5").style.visibility = "visible";
-		document.getElementById("answerQ5").innerHTML = "IgG index<br>Neopterin<br>Oligoclonal bands<br>AQP4<br>NMO<br>MOG<br>ANA<br>Angiotensin converting enzyme<br>ANCA<br>Myeloperoxidase antibody<br>Proteinase 3 antibody<br>Sm antibody<br>Sm Rnp antibody<br>DNA(ds) antibody<br>SSA, SSB<br>Streptolysin O<br>C3, C4<br>Anti-Hu, ANNA2(Ri), ANNA3, PCA1(Yo), PCA2, PCA-Tr(DNER), AGNA SOX1, Amphysin, CRMP5 CV2, GAD65, Ma2 Ta, Myelin, Zic4, AMPAR1, AMPAR2, GABABR, LGIq, CASPR2, DPPX, VGCC PQ, VGCC N, AChR";
+		document.getElementById("answerQ5").innerHTML = "We ordered:<br><br>IgG index<br>Neopterin<br>Oligoclonal bands<br>AQP4<br>NMO<br>MOG<br>ANA<br>Angiotensin converting enzyme<br>ANCA<br>Myeloperoxidase antibody<br>Proteinase 3 antibody<br>Sm antibody<br>Sm Rnp antibody<br>DNA(ds) antibody<br>SSA, SSB<br>Streptolysin O<br>C3, C4<br>Anti-Hu, ANNA2(Ri), ANNA3, PCA1(Yo), PCA2, PCA-Tr(DNER), AGNA SOX1, Amphysin, CRMP5 CV2, GAD65, Ma2 Ta, Myelin, Zic4, AMPAR1, AMPAR2, GABABR, LGIq, CASPR2, DPPX, VGCC PQ, VGCC N, AChR";
 		document.getElementById("after_submitQ5").style.background = "lightgreen";
 		document.getElementById("afterQ5_picture").innerHTML = "Great job!";
 	}
