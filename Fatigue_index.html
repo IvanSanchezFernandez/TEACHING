@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+
+<head>
+
+
+<title>Fatigue</title>
+<link href = "Fatigue_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Fatigue_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+<p style="font-size:26px">You go to your clinic and see that the first patient of the day chief complaint is...</p>
+
+
+<br>
+<br>
+
+
+<h1 style="text-align: center">Fatigue</h1>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question1" name="question1">
+<p style="font-size:24px"> <b>Q1. What are your initial thoughts on a chief complaint of fatigue?
+<br>
+<br>
+<input id="buttonQ1" type="button" value="Show me the answers!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+<br>
+<br>
+<p id = "afterQ1_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h2>Patient explanation</h2>
+<p style="font-size:26px">16 year-old adolescent who has been feeling tired and fatigued for the last 2 years. Over these 2 years her fatigue has been getting worse.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question2" name="question2">
+<p style="font-size:24px"><b>Q2. Regarding fatigue in multiple sclerosis, mark all correct statements:</b></p>
+<br>
+<p style="font-size:24px"> 
+<input type="checkbox" id="q2a" name="question" value="a"> Fatigue is unusual in multiple sclerosis<br>
+<input type="checkbox" id="q2b" name="question" value="b"> Fatigue is the most common symptom in multiple sclerosis<br>
+<input type="checkbox" id="q2c" name="question" value="c"> Fatigue occurs in approximately 80% of patients over the course of multiple sclerosis<br>
+<input type="checkbox" id="q2d" name="question" value="d"> Fatigue can be a symptom of depression, which is twice as frequent in multiple sclerosis than in the general population<br>
+<input type="checkbox" id="q2e" name="question" value="e"> Fatigue is a diagnostic criterion for multiple sclerosis<br>
+<input type="checkbox" id="q2f" name="question" value="f"> You should start a workup of multiple sclerosis in a young woman with fatigue</p><br>
+<input id="buttonQ2" type="button" value="Done!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+<br>
+<p id = "afterQ2_picture">
+</p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question3" name="question3">
+<p style="font-size:24px"> <b>Q3. What other information you want to know?
+<br>
+<br>
+<input id="buttonQ3" type="button" value="Show me the answers!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+<br>
+<br>
+<p id = "afterQ3_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<h2>History of present ilness</h2>
+<p style="font-size:26px">16 year-old adolescent with worsening fatigue over the last 2 years. She feels tired and sleepy all the time.<br><br>The severity has been fluctuating with periods of worsening and periods of improvement, but overall has getting worse.<br><br>Goes to sleep at 22:00, falls asleep easily and sleeps all through the night. Wakes up at 06:00 very tired. Takes 15 minutes for her to get out of bed. She is exhausted during the day so she wants to lie down and sleep during the day. HOwever, she never fell asleep in class or during activities (dancing) because she can control when she falls asleep. Sometimes, she feels lightheaded.<br><br>No episodes of suddenly losing tone and collapsing to the floor.<br><br>No episodes of being paralyzed on falling asleep or on awakening.<br><br>No episodes of vision loss or focal weakness or focal numbness<br><br>No episodes of progressive muscular weakness.<br><br>Past medical history characterized by anxiety treated with SSRI.<br><br>No toxics.<br><br>Nobody in the family with similar symptoms.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<form id="question4" name="question4">
+<p style="font-size:24px"> <b>Q4. How would you ask for cataplexy?</b></p>
+<p style="font-size:24px"> 
+<input type="radio" id="q4" name="question" value="a"> Any weird episode of suddenly falling asleep during the day?<br>
+<input type="radio" id="q4" name="question" value="b"> Do you ever progressively collapse to the floor and feel weak during the day?<br>
+<input type="radio" id="q4" name="question" value="c"> Does ever happen to you that, while being awake, and sometimes triggered by emotions (in most people it is a positive emotion like laughing or being excited about something), you feel weakness in some part of your body (and this can be weakness in all your body or weakness in some part of your body like an arm or a leg)?<br>
+<input type="radio" id="q4" name="question" value="d"> Any sudden loss of consciousness?<br>
+<input type="radio" id="q4" name="question" value="e"> Are you one of these weirdos who falls to the floor when somebody tells a joke?</p><br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<br>
+<p id = "afterQ4_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question5" name="question5">
+<p style="font-size:24px"> <b>Q5. What studies do you think the prior doctors did so far?
+<br>
+<br>
+<input id="buttonQ5" type="button" value="Show me the answers!" onclick="checkQ5();">
+</form>
+
+<div id="after_submitQ5">
+<p id="answerQ5"></p>
+<br>
+<br>
+<p id = "afterQ5_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question6" name="question6">
+<p style="font-size:24px"> <b>Q6. Do you think celiac disease explains her symptoms?</b></p>
+<p style="font-size:24px"> 
+<input type="radio" id="q6" name="question" value="a"> I think this can be explained by celiac disease in a broad sense. No further study needed<br>
+<input type="radio" id="q6" name="question" value="b"> I think it is best to continue looking for a better diagnosis</p><br>
+<input id="buttonQ6" type="button" value="Done!" onclick="checkQ6();">
+</form>
+
+<div id="after_submitQ6">
+<p id="answerQ6"></p>
+<br>
+<br>
+<p id = "afterQ6_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question7" name="question7">
+<p style="font-size:24px"><b>Q7. Mark typical neurological symptoms in celiac disease spectrum:</b></p>
+<br>
+<p style="font-size:24px"> 
+<input type="checkbox" id="q7a" name="question" value="a"> Cognitive impairment<br>
+<input type="checkbox" id="q7b" name="question" value="b"> Peripheral neuropathy<br>
+<input type="checkbox" id="q7c" name="question" value="c"> Seizures<br>
+<input type="checkbox" id="q7d" name="question" value="d"> Headaches<br>
+<input type="checkbox" id="q7e" name="question" value="e"> Neuropsychiatric diseases<br>
+<input type="checkbox" id="q7f" name="question" value="f"> Cerebellar ataxia</p><br>
+<input id="buttonQ7" type="button" value="Done!" onclick="checkQ7();">
+</form>
+
+<div id="after_submitQ7">
+<p id="answerQ7"></p>
+<br>
+<p id = "afterQ7_picture">
+</p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+<form id="question8" name="question8">
+<p style="font-size:24px"> <b>Q8. What findings do you expect on physical exam?
+<br>
+<br>
+<input id="buttonQ8" type="button" value="Show me the answers!" onclick="checkQ8();">
+</form>
+
+<div id="after_submitQ8">
+<p id="answerQ8"></p>
+<br>
+<br>
+<p id = "afterQ8_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question9" name="question9">
+<p style="font-size:24px"> <b>Q9. The patient explains that she can control (avoid) when she falls asleep. Does that exclude a diagnosis of narcolepsy? If it is narcolepsy, what type of narcolepsy is it?
+<br>
+<br>
+<input id="buttonQ9" type="button" value="Show me the answers!" onclick="checkQ9();">
+</form>
+
+<div id="after_submitQ9">
+<p id="answerQ9"></p>
+<br>
+<br>
+<p id = "afterQ9_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<form id="question10" name="question10">
+<p style="font-size:24px"> <b>Q10. What lab allows to differentiate narcolepsy type I versus narcolepsy type II?
+<br>
+<br>
+<input id="buttonQ10" type="button" value="Show me the answers!" onclick="checkQ10();">
+</form>
+
+<div id="after_submitQ10">
+<p id="answerQ10"></p>
+<br>
+<br>
+<p id = "afterQ10_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form id="question11" name="question11">
+<p style="font-size:24px"><b>Q11. Mark what tests you would order when you suspect narcolepsy in a patient:</b></p>
+<br>
+<p style="font-size:24px"> 
+<input type="checkbox" id="q11a" name="question" value="a"> Regular sleep study<br>
+<input type="checkbox" id="q11b" name="question" value="b"> Maintanance of wakefulness test<br>
+<input type="checkbox" id="q11c" name="question" value="c"> CPAP titration study<br>
+<input type="checkbox" id="q11d" name="question" value="d"> Multiple sleep latency test<br>
+<input type="checkbox" id="q11e" name="question" value="e"> Sleep study with half night without CPAP and half night with CPAP</p><br>
+<input id="buttonQ11" type="button" value="Done!" onclick="checkQ11();">
+</form>
+
+<div id="after_submitQ11">
+<p id="answerQ11"></p>
+<br>
+<p id = "afterQ11_picture">
+</p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<h2>Sleep study results</h2>
+<p style="font-size:26px">Mean sleep latency for four naps: 3.25 minutes. Mean sleep latency for five naps: 3.8 minutes. In two of the naps there was REM sleep (REM latency: 7.5 minutes and 1 minute).</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question12" name="question12">
+<p style="font-size:24px"> <b>Q12. What is your interpretation of these results?</b></p>
+<p style="font-size:24px"> 
+<input type="radio" id="q12" name="question" value="a"> With this study and her clinical presentation we can diagnose her with narcolepsy<br>
+<input type="radio" id="q12" name="question" value="b"> We cannot diagnose her with narcolepsy yet</p><br>
+<input id="buttonQ12" type="button" value="Done!" onclick="checkQ12();">
+</form>
+
+<div id="after_submitQ12">
+<p id="answerQ12"></p>
+<br>
+<br>
+<p id = "afterQ12_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question13" name="question13">
+<p style="font-size:24px"><b>Q13. What treatments would you recommend for this patient?</b></p>
+<br>
+<p style="font-size:24px"> 
+<input type="checkbox" id="q13a" name="question" value="a"> Regular sleep schedule<br>
+<input type="checkbox" id="q13b" name="question" value="b"> Caffeinated beverages<br>
+<input type="checkbox" id="q13c" name="question" value="c"> Methylphenydate<br>
+<input type="checkbox" id="q13d" name="question" value="d"> Scheduled naps<br>
+<input type="checkbox" id="q13e" name="question" value="e"> Sodium oxybate</p><br>
+<input id="buttonQ13" type="button" value="Done!" onclick="checkQ13();">
+</form>
+
+<div id="after_submitQ13">
+<p id="answerQ13"></p>
+<br>
+<p id = "afterQ13_picture">
+</p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<h2><b>SUMMARY</b></h2>
+<p style="font-size:28px"><b>Narcolepsy can happen with and without cataplexy and this is what defines narcolepsy type I and narcolepsy type II respectively. In narcolepsy type I the hypocretin is low. In narcolepsy type II the hypocretin is normal.<br><br>Cataplexy can be masked by SSRIs taken for other reasons.<br><br>Patients with narcolepsy can partially control when they fall asleep and it is not unusual to not fall asleep when in an stimulating environment.<br><br>The diagnosis of narcolepsy relies on a combination of clinical features and sleep studies (or LP).<br><br>Take a good history!</b></p>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>
