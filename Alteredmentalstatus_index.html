@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+
+<head>
+
+
+<title>Altered mental status</title>
+<link href = "Alteredmentalstatus_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Alteredmentalstatus_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+<br>
+<br>
+<h1 style="text-align: center">Altered mental status and increased intracranial pressure</h1>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question1" name="question1">
+<p style="font-size:24px"> <b>Q1. You get a consult in the pediatric ICU to evaluate a 9 year-old child who has been unresponsive for several days. This child has recently had an extensive structural brain lesion sustained as a result of a traumatic brain injury. The child has been stable in terms of temperature, blood pressure, and glycemia, although sometimes he needed fluids and vasopressors to keep normal vital signs values. He never required paralytics and his toxic screening has been repeatedly normal.<br><br>On physical exam the patient is intubated, no response to noxious stimuli in temporomandibular joints, supraorbital notch, sternal notch, and in all 4 extremities, pupils are midsize and unreactive, there are no extraocular eye movements with oculocephalic and oculovestibular reflexes, no corneal reflexes, no gag reflex, no cough reflex. You perform an apnea test which is performed according to the recommendations and no spontaneous respirations occur. At this point, what is the best answer?:</b></p>
+<p style="font-size:24px"> 
+<input type="radio" id="q1" name="question" value="a"> You should do ancillary tests if you want to reach a definitive diagnosis<br>
+<input type="radio" id="q1" name="question" value="b"> You can make a definitive diagnosis of brain death at this point<br>
+<input type="radio" id="q1" name="question" value="c"> You need another separate exam including apnea test to determine death by neurologic criteria<br>
+<input type="radio" id="q1" name="question" value="d"> The next best step is to do an EEG<br>
+<input type="radio" id="q1" name="question" value="e"> Follow-up brain MRIs are the recommended approach</p><br>
+<input id="buttonQ1" type="button" value="Done!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+<br>
+<br>
+<p id = "afterQ1_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h2 style="text-align: center">Neuroanatomy</h2>
+<p style="font-size:26px">Discussing lesions that cause coma and related alterations of mental status are a great opportunity to learn about the neuroanatomical structures that sustain consciousness and awareness.</p>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question2" name="question2">
+<p style="font-size:24px"> <b>Q2. You are consulted from the ICU again to evaluate a patient who presented with altered mental status and who also has abnormal pupils and abnormal respiration. The ICU resident presenting the case was not particularly sure about how to classify the pupils and respiratory abnormalities. Because the patient presented abruptly the ICU team is thinking of a stroke or a hemorrhage causing the symptoms. While in the elevator to the ICU you think about the localizing value of pupillary and respiratory abnormalities.<br><br>Drag and drop the concepts into their corresponding category:</b></p>
+<br>
+<br>
+
+
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p style="font-size:24px">&emsp;<b>Cerebral hemispheres</b></p>
+<br>
+<br>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p style="font-size:24px">&emsp;<b>Midbrain</b></p>
+<br>
+<br>
+<br>
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p style="font-size:24px">&emsp;<b>Pons</b></p>
+<br>
+<br>
+<div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p style="font-size:24px">&emsp;<b>Medulla</b></p>
+
+
+
+<br>
+<br>
+
+
+<span id="drag1" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Apneustic breathing&emsp;</b></span></div>
+<span id="drag2" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Midsize non-reactive pupils&emsp;</b></span></div>
+<span id="drag3" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Pinpoint pupils&emsp;</b></span></div>
+<br><br>
+<span id="drag4" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Cheyne-Stokes respiration&emsp;</b></span></div>
+<span id="drag5" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>&emsp;Ataxic breathing&emsp;</b></span></div>
+<span id="drag6" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Large fixed pupils&emsp;</b></span></div>
+<br><br>
+<span id="drag7" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Sustained hyperventilation&emsp;</b></span></div>
+<span id="drag8" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Cluster breathing&emsp;</b></span></div>
+
+
+<br>
+<br>
+<input id="buttonQ2" type="button" value="Show me all the answers, please!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question3" name="question3">
+<p style="font-size:24px"><b>Q3. After successfully addressing the two prior consults, you are paged again from the ICU. This consult is about a 15 year-old adolescent who, during an appendicectomy, sustained a prolonged episode of hypotension and entered into a coma. The patient has been in a coma for several weeks and she is well known to the Pediatric Neurology service. You examined her in the past and she was unresponsive to all types of external stimuli. The new consult is because the ICU team appears to have seen the patient move her eyes and even (maybe), move a leg when touched. While walking towards the ICU you order in your head the localization of certain reflexes important to distinguish different types of coma and other types of altered mental status.<br><br>Check all correct answers:</b></p>
+<br>
+<p style="font-size:24px"> 
+<input type="checkbox" id="q3a" name="question" value="a"> A patient in locked-in state has preserved sensation and perception<br>
+<input type="checkbox" id="q3b" name="question" value="b"> Patients with unresponsive wakefulness syndrome have sleep-wake cycles, brainstem reflexes, and spinal cord reflexes<br>
+<input type="checkbox" id="q3c" name="question" value="c"> Patients who meet criteria for death by neurological criteria can have spinal cord reflexes<br>
+<input type="checkbox" id="q3d" name="question" value="d"> A patient in locked-in state may be able to only blink and move the eyes vertically<br>
+<input type="checkbox" id="q3e" name="question" value="e"> Patients in coma do not have sleep-wake cycles, but generally have preserved brainstem reflexes, and preserved spinal cord reflexes<br>
+<input type="checkbox" id="q3f" name="question" value="f"> Spinal cord reflexes are preserved during sleep</p><br>
+<input id="buttonQ3" type="button" value="Done!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+<br>
+<p id = "afterQ3_picture">
+</p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<h2 style="text-align: center">Increased intracranial pressure: more neuroanatomy</h2>
+<p style="font-size:26px">The skull (once fontanelles close) is a rigid cavity. The total volume must remain constant. Therefore, if one of the three intracranial components (brain, blood, CSF) increases, one or the two other components must decrease. Causes of increased intracranial pressure include space occupying lesions (such as tumors) or hydrocephalus. Hydrocephalus is caused by either obstruction to the CSF flow (obstructive hydrocephalus) or increased CSF production (non-obstructive hydrocephalus). Initially, the intracranial components exhibit some compliance and are able to compensate for increases in volume without major increases in intracranial pressure (for example, by decreasing the amount of blood or CSF intracranially). However, after a certain point, minor increases in volume lead to abrupt increases in intracranial pressure. At that point, there is risk of brain herniation.</p>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form id="question4" name="question4">
+<p style="font-size:24px"><b>Q4. You are called again for a consult in the ICU. This is a 10 year-old patient with a cerebral tumor and the patient has been admitted tonight from the emergency department to the ICU for progressively worsening altered mental status. At this point the patient presents right pupillary dilation and left hemiparesis. The ICU team is concerned about brain herniation. While you run to the ICU you think about the different types of brain herniation and their different associations.<br><br>Check all correct answers:</b></p>
+<br>
+<p style="font-size:24px"> 
+<input type="checkbox" id="q4a" name="question" value="a"> Subfalcine herniations can cause no clinical manifestations or anterior cerebral artery strokes<br>
+<input type="checkbox" id="q4b" name="question" value="b"> The first clinical presentation of central herniation can be VI nerve palsy (unilaterally or bilaterally)<br>
+<input type="checkbox" id="q4c" name="question" value="c"> Tonsilar herniation typically presents with unilateral III nerve palsy with unilateral dilated pupil<br>
+<input type="checkbox" id="q4d" name="question" value="d"> Uncal herniation can cause dilated ipsilateral pupil because of compression and dysfunction of parasympathetic fibers in the periphery of the III cranial nerve and contralateral hemiparesis because of compression and dysfunction of the ipsilateral pyramidal tract<br>
+<input type="checkbox" id="q4e" name="question" value="e"> Uncal herniation can cause dilated ipsilateral pupil because of compression and dysfunction of parasympathetic fibers in the periphery of the III cranial nerve and ipsilateral hemiparesis because of compression and dysfunction of the contralateral pyramidal tract</p><br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<p id = "afterQ4_picture">
+</p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<p style="font-size:26px">Typical signs or symptoms of increased intracranial pressure include vomiting, limitation of vertical movement (especially upgaze), unsteadiness, headache (especially if increases with straining and on squatting and wakes the patient up from sleep), and, of course, altered mental status. What happens before the fontanelles close? Any of the above can happen, but also there is another mechanism to tolerate the increase in intracranial pressure: increase in head size.<br><br>Macrocephaly can be a sign of increased intracranial pressure in an infant, especially when the increase in head circumference is subacute over weeks and the patient crosses several percentile lines in their growth curve. In these situations there are typically other signs and symptoms of increased intracranial pressure as described above. In contrast, when the patient smoothly follows a percentile line in their head circumference growth chart and there are no other concerning signs or symptoms, the patient most likely has familial macrocephaly or prominent subarachnoid spaces.</p>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question5" name="question5">
+<p style="font-size:24px"> <b>Q5. You are provided with a new learning opportunity from the ICU. In this occasion it is an 8 month-old infant who was initially sent to the hospital outpatient clinic for macrocephaly. In the outpatient clinic she was classified as familial macrocephaly because the paternal grandfather used to have a big head (although he died several years ago). In the next few weeks, the head grew rapidly and crossed several percentile lines in the growth chart. The patient was becoming progressively irritable and refusing to eat. The day before admission, she started vomiting and having difficulty looking up. Finally, she was admitted to the ICU for altered mental status progressively leading into a coma.<br><br>Select the best answer:</b></p>
+<p style="font-size:24px"> 
+<input type="radio" id="q5" name="question" value="a"> Having a family member with a big head is sufficient to diagnose familiar macrocephaly<br>
+<input type="radio" id="q5" name="question" value="b"> Infants cannot herniate their brain because their fontanelles are still open<br>
+<input type="radio" id="q5" name="question" value="c"> Increased subdural space is always a malignant finding<br>
+<input type="radio" id="q5" name="question" value="d"> When head circumference grows rapidly and crosses percentile lines, a workup for concerning causes of macrocephaly is indicated<br>
+<input type="radio" id="q5" name="question" value="e"> All infants with macrocephaly need a head ultrasound or other form of neuroimaging, just to be sure</p><br>
+<input id="buttonQ5" type="button" value="Done!" onclick="checkQ5();">
+</form>
+
+<div id="after_submitQ5">
+<p id="answerQ5"></p>
+<br>
+<br>
+<p id = "afterQ5_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question6" name="question6">
+<p style="font-size:24px"><b>Q6. You are called once again for a consult in the ICU. This is a 15 year-old patient with increased intracranial pressure secondary to drowning and subsequent brain edema. While you go up the stairs to the ICU you think about the different types of treatments you can suggest to alleviate intracranial pressure, even if temporarily.<br><br>Check all correct answers:</b></p>
+<br>
+<p style="font-size:24px"> 
+<input type="checkbox" id="q6a" name="question" value="a"> Analgesia and sedation may decrease cerebral metabolism and help avoid abrupt changes in cerebral perfusion<br>
+<input type="checkbox" id="q6b" name="question" value="b"> You should recommend putting the head of the bed 30-45 degrees below the rest of the body to ensure good cerebral perfusion<br>
+<input type="checkbox" id="q6c" name="question" value="c"> Turn the head to the right and to the left every 2 hours to ensure good perfusion of both hemispheres<br>
+<input type="checkbox" id="q6d" name="question" value="d"> Mannitol or hypertonic saline may help reduce intracranial pressure<br>
+<input type="checkbox" id="q6e" name="question" value="e"> Hypoventilate the patient to decrease intracranial pressure</p><br>
+<input id="buttonQ6" type="button" value="Done!" onclick="checkQ6();">
+</form>
+
+<div id="after_submitQ6">
+<p id="answerQ6"></p>
+<br>
+<p id = "afterQ6_picture">
+</p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<h2 style="text-align: center">Infection and inflamation</h2>
+
+
+<br>
+<br>
+
+
+<form id="question7" name="question7">
+<p style="font-size:24px"> <b>Q7. While taking a break in your ICU rotation your attending explains to you that there are plenty of microorganisms ready to invade and eat your brain. Apart from that, your immune system sometimes also attacks your own brain just for fun. Let's think about some of the infectious and autoimmune causes of altered mental status:</b></p>
+<br>
+<br>
+<input id="buttonQ7" type="button" value="Show me the answers!" onclick="checkQ7();">
+</form>
+
+<div id="after_submitQ7">
+<p id="answerQ7"></p>
+<br>
+<br>
+<p id = "afterQ7_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<h2 style="text-align: center">Putting it all together</h2>
+
+
+<form id="question8" name="question8">
+<p style="font-size:24px"> <b>Q8. Another attending tells you that apart from structural, infectious, and autoimmune causes of altered mental status, there are plenty of mechanisms by which your mental status can be altered. Can you think of some of these causes?</b></p>
+<br>
+<br>
+<input id="buttonQ8" type="button" value="Show me the answers!" onclick="checkQ8();">
+</form>
+
+<div id="after_submitQ8">
+<p id="answerQ8"></p>
+<br>
+<br>
+<p id = "afterQ8_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<p style="font-size:26px">There are many many causes of altered mental status in pediatrics. How to approach such a vast topic?<br><br>First of all, keep the patient alive providing cardiorespiratory and support of all physiological functions as needed.<br><br>As always in medicine, a good history and physical exam is crucial to rule in or out the most important potential etiologies.<br><br>A simple but effective approach is presented in <a href='https://accessemergencymedicine.mhmedical.com/content.aspx?sectionid=109408192&bookid=1658#1121497401' target='_blank'>this chapter</a> (you can even download the pdf).<br><br>The first crucial aspect is to define the depth of altered mental status, which can go from mild alteration of behavior to very severe coma or even death by neurologic criteria. The second crucial aspect to define is to what potential etiologies has this patient been exposed to, such as history of infections, risk factors, social exposure to potential toxics. The third crucial aspect is to determine the symptoms that preceded or accompanied the altered mental status.<br><br>These simple aspects may further direct history and physical examination.<br><br>A good mnemonic to think about other potential etiologies is AEIOU TIPS (alcohol, encephalopathy, insulin, opiates, uremia, trauma, infection, poisoning, and seizure).<br><br>This topic is vast, but some resources may help like <a href='https://www.cecentral.com/assets/20847/Yackey%20-%20AMS.pdf' target='_blank'>this</a>, <a href='https://www.ebmedicine.net/topics/neurologic/pediatric-altered-level-consciousness' target='_blank'>this</a>, and <a href='https://www.ncbi.nlm.nih.gov/books/NBK441973/' target='_blank'>this</a>.</p>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+<h2><b>SUMMARY</b></h2>
+<p style="font-size:28px"><b>Altered mental status is a vast topic. There are many ways to approach the topic.<br><br>Hopefully, you learned some neuroanatomy and started to understand the vast variety of potential causes leading to altered mental status.<br><br>Finally, taking a good history is crucial to narrow down the differential diagnosis and consider a rational approach to diagnosis.<br><br>As always, take a good history!</b></p>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>
