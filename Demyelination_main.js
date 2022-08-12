@@ -106,7 +106,7 @@ document.getElementById("afterQ3_picture").innerHTML = "Try again!";
 
 function checkQ4() {
 
-if (document.question4.question.value == "a") {
+if (document.question4.question.value == "c") {
 document.getElementById("after_submitQ4").style.visibility = "visible";
 document.getElementById("answerQ4").innerHTML = "Correct!! <br><br>Brown-Sequard syndrome occurs rarely, but it is extremely helpful to understand the lateralization and localization of spinal cord lesions.<br><br>If one side of the spinal cord is damaged, the spinothalamic tract on that side is damaged (and this causes contralateral loss of pain and temperature sensation 2-3 levels below the lesion because), the dorsal column-medial lemniscus pathway (and this causes ipsilateral loss of vibration and propioception below the level of the lesion), and the corticospinal tract (and this causes ipsilateral weakness ipsilateral below the level of the lesion).<br><br>Here is another view of the <a href='https://i.pinimg.com/originals/37/6d/b3/376db3a78479d4db754c5e835da6fd9b.png' target='_blank'>spinal cord tracts</a>.";
 document.getElementById("after_submitQ4").style.background = "lightgreen";
