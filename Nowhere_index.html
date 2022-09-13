@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+
+<head>
+
+<title>The path to nowhere</title>
+<link href = "Nowhere_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=FpFs3EFrs9sVKr9uOwouUn2YEIeEqmnzoAU4Xcpqm60XHmJG1qzvcXShodBQyWhdvwcR6VKY5uEX70ZiU7lAAmI6juqH9ejgSknTKrQcukXikURBW29R-pOftIycEq9yexRDAyWcj5UJKzFmjynz5ikPmGYvmHXHajGS3g_ckBbqFhDnI77Q8VFkRAINvh_tgOUhb0-pVATpNTjSDv8CFnPaxmz0FZKIdnRM3jxSTyWpP21v3bDLZE6X2yFWE6aF7gC4aaMuzJ5tsalzk4jwwt0TG1F1y8ifFXOO-Cu6jyrY8oo79OkIQ8hPwrVLU-IEr7lTsU-QiesrQIPIf8WJQjblqvSp9tWPsKpNA0vJ83We5VokbYvFcLd8KQIywnnS56Kh6KG-HnXu9DGeiV9E5Gu5tpcjVFx5iYMcL5DFy0DzcnmJ9Z0paky5VWtamNHFyNbRT0PZNR8C2B7p5m6okBb0tr13jlCXr8EMPGz5ytg" charset="UTF-8"></script><script src = "Nowhere_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+<br>
+<br>
+
+<figure>
+	<center><img id="pathtonowhere" src="https://c8.alamy.com/comp/2B8K9MJ/curved-path-surrounded-by-trees-2B8K9MJ.jpg" width=500px heigth=500px>
+	</center>
+</figure>
+
+<br>
+<br>
+
+
+<span style="font-size: 60px"><h1 style="text-align: center; color: #800080">The path to nowhere</h1></span>
+
+
+<br>
+<br>
+<span style="font-size: 46px"><h2 style="text-align: center; color: #66ff00">The facts</h2></span> 
+<p style="font-size:36px"><b>Let's start with some facts:</b></p>
+<br>
+<br>
+
+
+
+
+<form id="question1" name="question1">
+<p style="font-size:36px"> <b>Q1. One of your patients has epilepsy and has not responded to two appropriately chosen and dosed antiseizure medications. You decide to try another antiseizure medication. What is the probability of obtaining long-term seizure control with this approach?</b></p>
+<p style="font-size:36px"> 
+<input type="radio" id="q1" name="question" value="a"> More than 70%<br>
+<input type="radio" id="q1" name="question" value="b"> More than 50%<br>
+<input type="radio" id="q1" name="question" value="c"> 50%<br>
+<input type="radio" id="q1" name="question" value="d"> 30%<br>
+<input type="radio" id="q1" name="question" value="e"> 10%<br>
+<input type="radio" id="q1" name="question" value="f"> 5%<br>
+<input type="radio" id="q1" name="question" value="g"> Less than 5%</p><br>
+<input id="buttonQ1" type="button" value="Done!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+<br>
+<br>
+<p id = "afterQ1_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question2" name="question2">
+<p style="font-size:36px"> <b>Q2. A colleague of yours, Dr. Dunning-Kruger, tells you that the classic study by Kwan and Brodie was published in 2000 with data from the 1980s and 1990s. Since then, more than 20 new antiseizure medications became available, including levetiracetam, topiramate, rufinamide, lacosamide, and perampanel. Your colleague explains to you that with so many new drugs, the probability of seizure freedom should have increased. Your best response is that with all currently available antiseizure medications, the probability of obtaining long-term seizure freedom after having failed two appropriately chosen and dosed antiseizure medications is:</b></p>
+<p style="font-size:36px"> 
+<input type="radio" id="q2" name="question" value="a"> More than 70%<br>
+<input type="radio" id="q2" name="question" value="b"> More than 50%<br>
+<input type="radio" id="q2" name="question" value="c"> 50%<br>
+<input type="radio" id="q2" name="question" value="d"> 30%<br>
+<input type="radio" id="q2" name="question" value="e"> 10%<br>
+<input type="radio" id="q2" name="question" value="f"> 5%<br>
+<input type="radio" id="q2" name="question" value="g"> Less than 5%</p><br>
+<input id="buttonQ2" type="button" value="Done!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+<br>
+<br>
+<p id = "afterQ2_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+<figure>
+	<center><img id="pathtonowhere" src="https://c8.alamy.com/comp/2B8K9MJ/curved-path-surrounded-by-trees-2B8K9MJ.jpg" width=500px heigth=500px> <figcaption style="font-size:36px"><b>Dr. Dunning-Kruger will continue sending patients down the path to nowhere because of widely spread misconceptions</b></figcaption> </center>
+</figure>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question3" name="question3">
+<p style="font-size:36px"> <b>Q3. What is the proportion of freedom from seizures with impaired awareness in adults with temporal lobe epilepsy one year after undergoing temporal lobectomy?</b></p>
+<p style="font-size:36px"> 
+<input type="radio" id="q3" name="question" value="a"> More than 70%<br>
+<input type="radio" id="q3" name="question" value="b"> More than 50%<br>
+<input type="radio" id="q3" name="question" value="c"> 50%<br>
+<input type="radio" id="q3" name="question" value="d"> 30%<br>
+<input type="radio" id="q3" name="question" value="e"> 10%<br>
+<input type="radio" id="q3" name="question" value="f"> 5%<br>
+<input type="radio" id="q3" name="question" value="g"> Less than 5%</p><br>
+<input id="buttonQ3" type="button" value="Done!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+<br>
+<br>
+<p id = "afterQ3_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question4" name="question4">
+<p style="font-size:36px"> <b>Q4. Dr. Dunning-Kruger is not particularly impressed and says that these results may not be as good in children, who have more heterogeneous etiologies and more proportion of extratemporal epilepsy. What do you think is the proportion of seizure freedom in children with refractory epilepsy of different etiologies 1 year after epilepsy surgery?</b></p>
+<p style="font-size:36px"> 
+<input type="radio" id="q4" name="question" value="a"> More than 70%<br>
+<input type="radio" id="q4" name="question" value="b"> More than 50%<br>
+<input type="radio" id="q4" name="question" value="c"> 50%<br>
+<input type="radio" id="q4" name="question" value="d"> 30%<br>
+<input type="radio" id="q4" name="question" value="e"> 10%<br>
+<input type="radio" id="q4" name="question" value="f"> 5%<br>
+<input type="radio" id="q4" name="question" value="g"> Less than 5%</p><br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<br>
+<p id = "afterQ4_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question5" name="question5">
+<p style="font-size:36px"> <b>Q5. Dr. Dunning-Kruger explains to a patient that despite the good efficacy results, epilepsy surgery is a last resort treatment because it is very dangerous to have brain surgery. What proportion of patients with epilepsy surgery have complications?</b></p>
+<p style="font-size:36px"> 
+<input type="radio" id="q5" name="question" value="a"> More than 70%<br>
+<input type="radio" id="q5" name="question" value="b"> More than 50%<br>
+<input type="radio" id="q5" name="question" value="c"> 50%<br>
+<input type="radio" id="q5" name="question" value="d"> 30%<br>
+<input type="radio" id="q5" name="question" value="e"> 10%<br>
+<input type="radio" id="q5" name="question" value="f"> 5%<br>
+<input type="radio" id="q5" name="question" value="g"> Less than 5%</p><br>
+<input id="buttonQ5" type="button" value="Done!" onclick="checkQ5();">
+</form>
+
+<div id="after_submitQ5">
+<p id="answerQ5"></p>
+<br>
+<br>
+<p id = "afterQ5_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<figure>
+	<center><img id="pathtonowhere" src="https://c8.alamy.com/comp/2B8K9MJ/curved-path-surrounded-by-trees-2B8K9MJ.jpg" width=500px heigth=500px> <figcaption style="font-size:36px"><b>Dr. Dunning-Kruger will continue sending patients down the path to nowhere because of widely spread misconceptions</b></figcaption> </center>
+</figure>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form id="question6" name="question6">
+<p style="font-size:36px"><b>Q6. Dr. Dunning-Kruger is still not convinced and recommends a patient not to undergo presurgical evaluation, but to continue on antiseizure medications only to 'be safe'. What facts can you provide to argue with these views?</b></p>
+<p style="font-size:36px"> 
+<input type="checkbox" id="q6a" name="question" value="a"> Patients with temporal lobe epilepsy undergoing epilepsy surgery in their 30s gain approximately 5 years of life expectancy compared to if they just continued antiseizure medications alone<br>
+<input type="checkbox" id="q6b" name="question" value="b"> Patients with extratemporal lobe epilepsy undergoing epilepsy surgery in their second decade of life gain at least 5 years of life expectancy compared to if they just continued antiseizure medications alone<br>
+<input type="checkbox" id="q6c" name="question" value="c"> Quality of life is better in the epilepsy surgery patients than in the antiseizure medication only patients<br>
+<input type="checkbox" id="q6d" name="question" value="d"> The proportion of seizure freedom in the surgical group is still much higher than in the medical group 2 years after surgery<br>
+<input type="checkbox" id="q6e" name="question" value="e"> Epilepsy surgery for adults with refractory temporal lobe epilepsy becomes cost-effective at 3 years after surgery<br>
+<input type="checkbox" id="q6f" name="question" value="f"> For adults with temporal lobe epilepsy, presurgical evaluation is cost-effective even if only 5% of patients would move on to surgery</p><br>
+<input id="buttonQ6" type="button" value="Done!" onclick="checkQ6();">
+</form>
+
+<div id="after_submitQ6">
+<p id="answerQ6"></p>
+<br>
+<figure>
+<img id="answerQ6_picture">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ6_picture"></p>
+</div>
+<br clear="all" />
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<p style="font-size:36px">After your discussions and reviews of the literature you summarize the facts for Dr. Dunning-Kruger in the following table:
+<br>
+<br>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:red;border-style:solid;border-width:3px;font-family:Arial, sans-serif;font-size:30px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:red;border-style:solid;border-width:3px;font-family:Arial, sans-serif;font-size:30px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<center><table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><b>Category</b></th>
+    <th class="tg-0lax"><b>Epilepsy surgery</b></th>
+    <th class="tg-0lax"><b>Antiseizure medication (ASM) alone</b></th>
+    <th class="tg-0lax"><b>References</b></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><b>Probability of obtaining long-term seizure freedom with classic ASM</b></td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax"><5%</td>
+    <td class="tg-0lax"><a href='https://pubmed.ncbi.nlm.nih.gov/10660394/' target='_blank'>Kwan and Brodie, 2000</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Probability of obtaining long-term seizure freedom with new ASM</b></td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax"><5%</td>
+    <td class="tg-0lax"><a href='https://pubmed.ncbi.nlm.nih.gov/29279892/' target='_blank'>Chen et al, 2018</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Seizure freedom at 1 year</b></td>
+    <td class="tg-0lax">58%<br><br>77%</td>
+    <td class="tg-0lax">8%<br><br>7%</td>
+    <td class="tg-0lax"><a href='https://pubmed.ncbi.nlm.nih.gov/11484687/' target='_blank'>Wiebe et al, 2001</a> (adult)<br><br><a href='https://pubmed.ncbi.nlm.nih.gov/29069568/' target='_blank'>Dwivedi et al, 2017</a> (pediatric)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Seizure freedom at 2 years</b></td>
+    <td class="tg-0lax">69%</td>
+    <td class="tg-0lax">12%</td>
+    <td class="tg-0lax"><a href='https://pubmed.ncbi.nlm.nih.gov/27595433/' target='_blank'>Picot et al, 2016</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Seizure freedom at 5 years</b></td>
+    <td class="tg-0lax">77%</td>
+    <td class="tg-0lax">21%</td>
+    <td class="tg-0lax"><a href='https://pubmed.ncbi.nlm.nih.gov/27595433/' target='_blank'>Picot et al, 2016</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Gains in life expectancy compared to ASM alone</b></td>
+    <td class="tg-0lax">5.0 (95% CI, 2.1-9.2) years<br><br><br>6 years (temporal) and 5 years (extratemporal) </td>
+    <td class="tg-0lax">NA<br><br><br>NA</td>
+    <td class="tg-0lax"><a href='https://pubmed.ncbi.nlm.nih.gov/19050193/' target='_blank'>Choi et al, 2008</a> (adult, anterior temporal lobectomy in a 35 year-old)<br><br><a href='https://pubmed.ncbi.nlm.nih.gov/25599894/' target='_blank'>Sánchez Fernández et al, 2015</a> (pediatric, surgery between 10 and 20 years of age)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Improvement in quality of life at one year</b></td>
+    <td class="tg-0lax">17.1<br><br>22.7</td>
+    <td class="tg-0lax">7.6<br><br>0.7</td>
+    <td class="tg-0lax"><a href='https://pubmed.ncbi.nlm.nih.gov/11484687/' target='_blank'>Wiebe et al, 2001</a> (adult, Quality of Life in Epilepsy Inventory-89)<br><br><a href='https://pubmed.ncbi.nlm.nih.gov/29069568/' target='_blank'>Dwivedi et al, 2017</a> (pediatric, Pediatric Quality of Life
+Inventory)</td>
+  </tr>
+</tbody>
+</table></center>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+
+
+<span style="font-size: 46px"><h2 style="text-align: center; color: #66ff00">The underutilization</h2></span> 
+
+<p style="font-size:36px">In the USA there are approximately 330 million people.<br><br>
+In the USA there are approximately <a href='https://pubmed.ncbi.nlm.nih.gov/28796763/' target='_blank'>3 million adults and 0.5 million pediatric patients with epilepsy</a>.<br><br>
+In the USA there are approximately <a href='https://pubmed.ncbi.nlm.nih.gov/24348103/' target='_blank'>1 million people with refractory epilepsy</a>. Among those, approximately <a href='https://pubmed.ncbi.nlm.nih.gov/24348103/' target='_blank'>100,000 to 500,000 patients with refractory epilepsy are surgical candidates, but only 2,000 epilepsy surgeries are done per year</a>.<br><br>
+In the rest of the world things are not better and probably are worse. In a Canadian study <a href='https://pubmed.ncbi.nlm.nih.gov/26643546/' target='_blank'>fewer than 2% of patients who may have benefited from epilepsy surgery received it</a>.</p>
+<br>
+<br>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<span style="font-size: 46px"><h2 style="text-align: center; color: #66ff00"">How is this possible?</h2></span>
+
+<p style="font-size:36px">There are widespread misconceptions around epilepsy surgery among patients, families, and physicians (even among neurologists and pediatric neurologists). The <a href='https://www.theoptimumdrive.com/f1-blog-entries/2020/6/8/explaining-the-dunning-kruger-effect' target='_blank'>Dunning-Kruger effect</a> may explain part of this situation, but not the whole situation.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<p style="font-size:36px"><b>Some more facts to put this situation in context:</b></p>
+<br>
+<br>
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:red;border-style:solid;border-width:3px;font-family:Arial, sans-serif;font-size:30px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:red;border-style:solid;border-width:3px;font-family:Arial, sans-serif;font-size:30px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<center><table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><b>Category</b></th>
+    <th class="tg-0lax"><b>Epilepsy surgery</b></th>
+    <th class="tg-0lax"><b>Thrombolysis for acute ischemic stroke</b></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><b>Number needed to treat (NNT) to obtain the desired outcome</b></td>
+    <td class="tg-0lax">1.4 to 2 <a href='https://pubmed.ncbi.nlm.nih.gov/11484687/' target='_blank'>Wiebe et al, 2001</a>, <a href='https://pubmed.ncbi.nlm.nih.gov/29069568/' target='_blank'>Dwivedi et al, 2017</a></td>
+    <td class="tg-0lax">3.1 to 8.4 <a href='https://pubmed.ncbi.nlm.nih.gov/15262737/' target='_blank'>Saver, 2004</a>, <a href='https://pubmed.ncbi.nlm.nih.gov/19498197/' target='_blank'>Saver et al, 2009</a>, <a href='https://pubmed.ncbi.nlm.nih.gov/32224752/' target='_blank'>Rabinstein, 2020</a> to 15 <a href='https://pubmed.ncbi.nlm.nih.gov/34871239/' target='_blank'>Heo et al, 2021</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Desired outcome (NNT)</b></td>
+    <td class="tg-0lax">Seizure fredom at 1 year (1.4 to 2) <a href='https://pubmed.ncbi.nlm.nih.gov/11484687/' target='_blank'>Wiebe et al, 2001</a>, <a href='https://pubmed.ncbi.nlm.nih.gov/29069568/' target='_blank'>Dwivedi et al, 2017</a>.<br><br>Seizure freedom at 2 years (1.8) <a href='https://pubmed.ncbi.nlm.nih.gov/27595433/' target='_blank'>Picot et al, 2016</a><br><br>Seizure freedom at 5 years (1.8) <a href='https://pubmed.ncbi.nlm.nih.gov/27595433/' target='_blank'>Picot et al, 2016</a></td>
+    <td class="tg-0lax">Avert dependence or death after stroke (8.4) or improving 1 point in the mRS (3.1) <a href='https://pubmed.ncbi.nlm.nih.gov/15262737/' target='_blank'>Saver, 2004</a>, <a href='https://pubmed.ncbi.nlm.nih.gov/19498197/' target='_blank'>Saver et al, 2009</a><br><br>Avert death at 5 years (15) <a href='https://pubmed.ncbi.nlm.nih.gov/34871239/' target='_blank'>Heo et al, 2021</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Gain in life expectancy</b></td>
+    <td class="tg-0lax">5 to 6 years <a href='https://pubmed.ncbi.nlm.nih.gov/19050193/' target='_blank'>Choi et al, 2008</a> (adult, anterior temporal lobectomy in a 35 year-old), <a href='https://pubmed.ncbi.nlm.nih.gov/25599894/' target='_blank'>Sánchez Fernández et al, 2015</a> (pediatric, surgery between 10 and 20 years of age)</td>
+    <td class="tg-0lax">Some reduction in 3-month mortality <a href='https://pubmed.ncbi.nlm.nih.gov/34871239/' target='_blank'>Heo et al, 2021</a>.<br><br> No reduction in 1-year mortality <a href='https://pubmed.ncbi.nlm.nih.gov/34871239/' target='_blank'>Heo et al, 2021</a>, <a href='https://pubmed.ncbi.nlm.nih.gov/10362821/' target='_blank'>Kwiatkowski et al, 2021</a>. Some study found a small reduction in mortality at 1 year (adjusted hazard ratio, 0.66; 95% confidence interval, 0.49–0.88) <a href='https://pubmed.ncbi.nlm.nih.gov/25190440/' target='_blank'>Schmitz et al, 2014</a>.<br><br> No reduction in 3-year mortality <a href='https://pubmed.ncbi.nlm.nih.gov/27450474/' target='_blank'>Berge et al, 2016</a>.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Symptomatic intracranial hemorrhage</b></td>
+    <td class="tg-0lax">Stereo-EEG: 1% <a href='https://pubmed.ncbi.nlm.nih.gov/26899389/' target='_blank'>Mullin et al, 2016</a>, subdural electrodes: 4% <a href='https://pubmed.ncbi.nlm.nih.gov/23294329/' target='_blank'>Arya et al, 2013</a></td>
+    <td class="tg-0lax">1.9% to 6.4% <a href='https://pubmed.ncbi.nlm.nih.gov/32224752/' target='_blank'>Rabinstein et al, 2020</a></td>
+  </tr>
+</tbody>
+</table></center>
+
+
+<br>
+<br>
+
+<p style="font-size:36px"><b>Important caveat: There are approximately <a href='https://pubmed.ncbi.nlm.nih.gov/21893672/' target='_blank'>50,000 new cases of refractory epilepsy per year in the USA</a> while there are approximately <a href='https://pubmed.ncbi.nlm.nih.gov/35078371/' target='_blank'>800,000 new strokes per year in the USA</a>.</b></p>
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<span style="font-size: 46px"><h2 style="text-align: center; color: #66ff00"">How on Earth is this possible?</h2></span>
+
+
+<p style="font-size:36px">Let's introduce the TOTREP. The TOTREP always acts rationally choosing the actions that most increase their utility.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<figure>
+	<center><img id="TOTREP" src="TOTREP.png" width=800px heigth=800px></center>
+</figure>
+
+<br>
+<br>
+<br>
+<br>
+
+<p style="font-size:36px">An important characteristics of the TOTREP is that it does not exist. <a href='https://pubmed.ncbi.nlm.nih.gov/17835457/' target='_blank'>There is strong empirical evidence since the 1970s that human decision making is biased and irrational.</a></p>
+
+
+https://www.youtube.com/watch?v=EGUuyewrNNo
+
+
+<p style="font-size:36px">Targeting ignorance, the American Academy of Neurology, the American Epilepsy Society, and the American Association of Neurological Surgeons published a <a href='https://pubmed.ncbi.nlm.nih.gov/12601090/' target='_blank'>practice parameter in 2003 recommending evaluation for epilepsy surgery for refractory temporal lobe epilepsy</a>. The result of that was <a href='https://pubmed.ncbi.nlm.nih.gov/20733145/' target='_blank'>no change at all</a>. Even today, after multiple articles explaining the <a href='https://pubmed.ncbi.nlm.nih.gov/34620465/' target='_blank'>missed value of not evaluating patients for epilepsy surgery</a> and <a href='https://pubmed.ncbi.nlm.nih.gov/24348103/' target='_blank'>dispelling myths</a>, the proportion of patients undergoing epilepsy surgery <a href='https://pubmed.ncbi.nlm.nih.gov/34880093/' target='_blank'>remains stagnant</a>.</p>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<figure>
+	<center><img id="pathtonowhere" src="https://c8.alamy.com/comp/2B8K9MJ/curved-path-surrounded-by-trees-2B8K9MJ.jpg" width=500px heigth=500px> <figcaption style="font-size:36px"><b>Dr. Dunning-Kruger will continue sending patients down the path to nowhere because of lack of knowledge and widely spread misconceptions, but maybe there is something else apart from ignorance and widely spread misconceptions...</b></figcaption> </center>
+</figure>
+
+
+
+
+
+<form id="question7" name="question7">
+<p style="font-size:24px"> <b>Q7. What is a TOTREP?</b></p>
+<p style="font-size:24px"> 
+<input type="radio" id="q7" name="question" value="a"> Totally Obnoxious TRash-Emiting Physician<br>
+<input type="radio" id="q7" name="question" value="b"> Trade-Off Talking Rational Economic Person<br>
+<input type="radio" id="q7" name="question" value="c"> Totally Obvious Tentatively Rational Economic Preference<br>
+<input type="radio" id="q7" name="question" value="d"> Totally Obtuse Talking Reasonable Expectations Physician<br>
+<input type="radio" id="q7" name="question" value="e"> Trade-Off T2 Radio-Electronic Protection</p><br>
+<input id="buttonQ7" type="button" value="Done!" onclick="checkQ7();">
+</form>
+
+<div id="after_submitQ7">
+<p id="answerQ7"></p>
+<br>
+<br>
+<p id = "afterQ7_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<p style="font-size:28px"><b>Behavioral economics explained with epilepsy surgery and stroke.<br><br>Stroke is widely seen as a very effective and safe therapy. Looking at the data, though, does not show the same picture</b>
+</p>
+
+
+
+
+
+
+TOTREPS
+Stroke
+
+
+
+<form id="questiondd" name="questiondd">
+<p><b>Why the seizure symptoms appear to move over the body as the seizure evolves? Drag the concepts below and drop them into their respective definition. You might want to express your answer using these concepts.</b>
+<br>
+<br>
+
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>The macroscopic lesion that is causing the epileptic seizures</b></p>
+<br>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>The area of cortex which produces the initial ictal symptoms</b></p>
+<br>
+<br>
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>The area of cortex from which clinical seizures actually originate</b></p>
+<br>
+<br>
+<div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>The area of cortex that is necessary for the generation of seizures, and must be removed (or disconnected) to render
+patients seizure-free</b></p>
+<br>
+<br>
+<div id="drop5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>The area of cortex that generates interictal electrographic spikes</b></p>
+<br>
+<br>
+
+<span id="drag1" data-div="drop5" draggable="true" ondragstart="drag(event)"><b>&emsp;Irritative zone&emsp;</b></span></div>
+<span id="drag2" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Symptomatogenic zone&emsp;</b></span></div>
+<span id="drag3" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Epileptogenic lesion&emsp;</b></span></div>
+<br><br>
+<span id="drag4" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Seizure onset zone&emsp;</b></span></div>
+<span id="drag5" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>&emsp;Epileptogenic zone&emsp;</b></span></div>
+<br><br>
+
+<br>
+<br>
+<input id="buttonQdd" type="button" value="Show me all the answers, please!" onclick="checkQdd();">
+</form>
+
+<div id="after_submitQdd">
+<p id="answerQdd"></p>
+
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question7" name="question7">
+<p style="font-size:24px"> <b>Q7. A nurse calls you to the floor to evaluate a generalized tonic-clonic seizure. The nurse shows you this video:</b></p>
+<div style="height:700px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://players.brightcove.net/2696240571001/VyQDdgBTl_default/index.html?videoId=6256257603001"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+<p style="font-size:10px"> <b>From: Chowduri et al. Pract Neurol 2021</b></p>
+<p style="font-size:24px"> <b>Based on the information on the video, what is your hypothesis?</b></p>
+<p style="font-size:24px"> 
+<input type="radio" id="q7" name="question" value="a"> Frontal lobe seizure<br>
+<input type="radio" id="q7" name="question" value="b"> Movement disorder<br>
+<input type="radio" id="q7" name="question" value="c"> Occipital lobe seizure<br>
+<input type="radio" id="q7" name="question" value="d"> Temporal lobe seizure<br>
+<input type="radio" id="q7" name="question" value="e"> Parietal lobe seizure<br>
+<input type="radio" id="q7" name="question" value="f"> Psychogenic non-epileptic seizure<br>
+<input type="radio" id="q7" name="question" value="g"> Parasomnia<br>
+<input type="radio" id="q7" name="question" value="h"> Generalized tonic-clonic seizure<br>
+<input type="radio" id="q7" name="question" value="i"> Other (specify)</p><br>
+<input id="buttonQ7" type="button" value="Done!" onclick="checkQ7();">
+</form>
+
+<div id="after_submitQ7">
+<p id="answerQ7"></p>
+<br>
+<br>
+<p id = "afterQ7_picture"></p>
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<form id="question8" name="question8">
+<p style="font-size:24px"><b>Q8. You evaluate a 19 year-old young woman with intellectual disability who frequently watches videos of Korean pop music. For the last month, she has been having religious episodes in which she feels that the Korean pop stars are talking to her on the youtube videos. She also sees herself appearing in the videos. She has occasional episodes of a religious experience in which she is 'being talked truth' and she has sweaty hands. What of the following should you consider in your differential diagnosis?</b></p>
+<br>
+<p style="font-size:24px"> 
+<input type="checkbox" id="q8a" name="question" value="a"> God communicating with patient<br>
+<input type="checkbox" id="q8b" name="question" value="b"> Occipital lobe seizures<br>
+<input type="checkbox" id="q8c" name="question" value="c"> Onset of a psychotic disorder<br>
+<input type="checkbox" id="q8d" name="question" value="d"> Korean pop stars communicating with patient<br>
+<input type="checkbox" id="q8e" name="question" value="e"> Behavioral episodes in somebody with intellectual disability frequently exposed to Korean pop videos<br>
+<input type="checkbox" id="q8f" name="question" value="f"> Temporal lobe seizures</p><br>
+<input id="buttonQ8" type="button" value="Done!" onclick="checkQ8();">
+</form>
+
+<div id="after_submitQ8">
+<p id="answerQ8"></p>
+<br>
+<figure>
+<img id="answerQ5_picture">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ8_picture">
+</p>
+</div>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question9" name="question9">
+<p style="font-size:24px"> <b>Q9. In a population of heterogeneous patients, what is the proportion of seizures which are generalized tonic-clonic seizures?</b></p>
+<p style="font-size:24px"> 
+<input type="radio" id="q9" name="question" value="a"> More than 80%<br>
+<input type="radio" id="q9" name="question" value="b"> Approximately 65%<br>
+<input type="radio" id="q9" name="question" value="c"> Approximately 50%<br>
+<input type="radio" id="q9" name="question" value="d"> Approximately 20%</p><br>
+<input id="buttonQ9" type="button" value="Done!" onclick="checkQ9();">
+</form>
+
+<div id="after_submitQ9">
+<p id="answerQ9"></p>
+<br>
+<br>
+<p id = "afterQ9_picture"></p>
+</div>
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<h2><b>SUMMARY</b></h2>
+<p style="font-size:28px"><b>Even if you were leading a dishonorable life where you were classifying all seizures as generalized tonic-clonic seizures and you were not localizing seizures, hopefully this lecture has illuminated you and now you will LOCALIZE SEIZURES!! (and convert everybody else so that they do it, too).</b></p>
+
+https://c8.alamy.com/comp/2B8K9MJ/curved-path-surrounded-by-trees-2B8K9MJ.jpg
+
+
+https://image.shutterstock.com/image-photo/curved-road-nowhere-on-dry-260nw-2019778553.jpg
+https://c8.alamy.com/comp/D63TP9/curved-path-between-trees-D63TP9.jpg
+
+
+Potential highway to nowhere
+http://www.storiesfromschoolaz.org/wp-content/uploads/2011/02/road-to-nowhere.jpg
+https://previews.123rf.com/images/alexis84/alexis841603/alexis84160305128/53628466-camino-a-ninguna-parte-se%C3%B1al-de-carretera-contra-el-cielo-azul-claro.jpg
+https://previews.123rf.com/images/alexis84/alexis841603/alexis84160305164/53629924-camino-a-ninguna-parte-se%C3%B1al-de-carretera-contra-el-cielo-azul-claro.jpg
+https://viajerosdelmisterio.com/wp-content/uploads/2013/07/norge-tiltas.jpg
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>
