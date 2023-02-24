@@ -1,5 +1,5 @@
 body {
-      font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -10,77 +10,77 @@ body {
 
 
 #question1 {
-      margin-left: 10px;
-      margin-right: 10px;
-      background: cyan;
-      padding: 10px 10px 10px 10px;
-      width: 975px;
-      border-radius: 20px;
-      float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
 }
 
 
 #Q1_1 {
-      width: 900px;
-      heigth: 900px;
-      float: left;
-      border-radius: 20px;
+	width: 900px;
+	heigth: 900px;
+	float: left;
+	border-radius: 20px;
 }
 
 
 #buttonQ1 {
-      background: green;
-      border: black;
-      border-radius: 5px;
-      padding: 10px;
-      color: white;
-      font-size: 30px;
-      transition-duration: 0.25s;
-      margin-top: 15px;
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
 }
 
 
 #buttonQ1:hover {
-      background: white;
-      border: 1px solid green;
-      color: black;
-      cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
 
 
 #after_submitQ1 {
-      visibility: hidden;
-      padding: 10px 10px 10px 10px;
-      width: 725px;
-      heigth: 900px;
-      border-radius: 20px;
-      float: left;
-      margin-left: 20px;
-      font-size: 36px;
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 725px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
 }
 
 
 #answerQ1_picture {
-      width: 375px;
-      heigth: 300px;
-      float: left;
-      border-radius: 20px;
+	width: 375px;
+	heigth: 300px;
+	float: left;
+	border-radius: 20px;
 }
 
 
 #answerQ1_picture_2 {
-      width: 375px;
-      heigth: 300px;
-      float: left;
-      border-radius: 20px;
+	width: 375px;
+	heigth: 300px;
+	float: left;
+	border-radius: 20px;
 }
 
 
 #answerQ1_picture_3 {
-      width: 375px;
-      heigth: 300px;
-      float: left;
-      border-radius: 20px;
+	width: 375px;
+	heigth: 300px;
+	float: left;
+	border-radius: 20px;
 }
 
 
@@ -91,45 +91,45 @@ body {
 
 
 #question2 {
-      margin-left: 10px;
-      margin-right: 10px;
-      background: cyan;
-      padding: 10px 10px 10px 10px;
-      width: 975px;
-      border-radius: 20px;
-      float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
 }
 
 
 #buttonQ2 {
-      background: green;
-      border: black;
-      border-radius: 5px;
-      padding: 10px;
-      color: white;
-      font-size: 30px;
-      transition-duration: 0.25s;
-      margin-top: 15px;
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
 }
 
 
 #buttonQ2:hover {
-      background: white;
-      border: 1px solid green;
-      color: black;
-      cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
 
 
 #after_submitQ2 {
-      visibility: hidden;
-      padding: 10px 10px 10px 10px;
-      width: 725px;
-      heigth: 900px;
-      border-radius: 20px;
-      float: left;
-      margin-left: 20px;
-      font-size: 36px;
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 725px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
 }
 
 
@@ -140,45 +140,45 @@ body {
 
 
 #question3 {
-      margin-left: 10px;
-      margin-right: 10px;
-      background: cyan;
-      padding: 10px 10px 10px 10px;
-      width: 975px;
-      border-radius: 20px;
-      float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
 }
 
 
 #buttonQ3 {
-      background: green;
-      border: black;
-      border-radius: 5px;
-      padding: 10px;
-      color: white;
-      font-size: 30px;
-      transition-duration: 0.25s;
-      margin-top: 15px;
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
 }
 
 
 #buttonQ3:hover {
-      background: white;
-      border: 1px solid green;
-      color: black;
-      cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
 
 
 #after_submitQ3 {
-      visibility: hidden;
-      padding: 10px 10px 10px 10px;
-      width: 725px;
-      heigth: 900px;
-      border-radius: 20px;
-      float: left;
-      margin-left: 20px;
-      font-size: 36px;
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 725px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
 }
 
 
@@ -189,45 +189,45 @@ body {
 
 
 #question4 {
-      margin-left: 10px;
-      margin-right: 10px;
-      background: cyan;
-      padding: 10px 10px 10px 10px;
-      width: 975px;
-      border-radius: 20px;
-      float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
 }
 
 
 #buttonQ4 {
-      background: green;
-      border: black;
-      border-radius: 5px;
-      padding: 10px;
-      color: white;
-      font-size: 30px;
-      transition-duration: 0.25s;
-      margin-top: 15px;
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
 }
 
 
 #buttonQ4:hover {
-      background: white;
-      border: 1px solid green;
-      color: black;
-      cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
 
 
 #after_submitQ4 {
-      visibility: hidden;
-      padding: 10px 10px 10px 10px;
-      width: 725px;
-      heigth: 900px;
-      border-radius: 20px;
-      float: left;
-      margin-left: 20px;
-      font-size: 36px;
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 725px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
 }
 
 
@@ -238,45 +238,45 @@ body {
 
 
 #question5 {
-      margin-left: 10px;
-      margin-right: 10px;
-      background: cyan;
-      padding: 10px 10px 10px 10px;
-      width: 975px;
-      border-radius: 20px;
-      float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
 }
 
 
 #buttonQ5 {
-      background: green;
-      border: black;
-      border-radius: 5px;
-      padding: 10px;
-      color: white;
-      font-size: 30px;
-      transition-duration: 0.25s;
-      margin-top: 15px;
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
 }
 
 
 #buttonQ5:hover {
-      background: white;
-      border: 1px solid green;
-      color: black;
-      cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
 
 
 #after_submitQ5 {
-      visibility: hidden;
-      padding: 10px 10px 10px 10px;
-      width: 725px;
-      heigth: 900px;
-      border-radius: 20px;
-      float: left;
-      margin-left: 20px;
-      font-size: 36px;
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 725px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
 }
 
 
@@ -287,64 +287,62 @@ body {
 
 
 #question6 {
-      margin-left: 10px;
-      margin-right: 10px;
-      background: cyan;
-      padding: 10px 10px 10px 10px;
-      width: 975px;
-      border-radius: 20px;
-      float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
 }
 
 
 #Q6_1 {
-      width: 900px;
-      heigth: 900px;
-      float: left;
-      border-radius: 20px;
+	width: 900px;
+	heigth: 900px;
+	float: left;
+	border-radius: 20px;
 }
 
 
 #buttonQ6 {
-      background: green;
-      border: black;
-      border-radius: 5px;
-      padding: 10px;
-      color: white;
-      font-size: 30px;
-      transition-duration: 0.25s;
-      margin-top: 15px;
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
 }
 
 
 #buttonQ6:hover {
-      background: white;
-      border: 1px solid green;
-      color: black;
-      cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
 
 
 #after_submitQ6 {
-      visibility: hidden;
-      padding: 10px 10px 10px 10px;
-      width: 725px;
-      heigth: 900px;
-      border-radius: 20px;
-      float: left;
-      margin-left: 20px;
-      font-size: 36px;
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 725px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
 }
 
 
 #answerQ6_picture {
-      width: 375px;
-      heigth: 300px;
-      float: left;
-      border-radius: 20px;
+	width: 375px;
+	heigth: 300px;
+	float: left;
+	border-radius: 20px;
 }
-
-
 
 
 
@@ -352,46 +350,47 @@ body {
 
 
 #question7 {
-      margin-left: 10px;
-      margin-right: 10px;
-      background: cyan;
-      padding: 10px 10px 10px 10px;
-      width: 975px;
-      border-radius: 20px;
-      float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
 }
 
 
 #buttonQ7 {
-      background: green;
-      border: black;
-      border-radius: 5px;
-      padding: 10px;
-      color: white;
-      font-size: 30px;
-      transition-duration: 0.25s;
-      margin-top: 15px;
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
 }
 
 
 #buttonQ7:hover {
-      background: white;
-      border: 1px solid green;
-      color: black;
-      cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
 
 
 #after_submitQ7 {
-      visibility: hidden;
-      padding: 10px 10px 10px 10px;
-      width: 725px;
-      heigth: 900px;
-      border-radius: 20px;
-      float: left;
-      margin-left: 20px;
-      font-size: 36px;
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 725px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
 }
+
 
 
 
@@ -400,101 +399,91 @@ body {
 
 
 #question8 {
-      margin-left: 10px;
-      margin-right: 10px;
-      background: cyan;
-      padding: 10px 10px 10px 10px;
-      width: 975px;
-      border-radius: 20px;
-      float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
 }
 
 
 #buttonQ8 {
-      background: green;
-      border: black;
-      border-radius: 5px;
-      padding: 10px;
-      color: white;
-      font-size: 30px;
-      transition-duration: 0.25s;
-      margin-top: 15px;
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
 }
 
 
 #buttonQ8:hover {
-      background: white;
-      border: 1px solid green;
-      color: black;
-      cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
 
 
 #after_submitQ8 {
-      visibility: hidden;
-      padding: 10px 10px 10px 10px;
-      width: 725px;
-      heigth: 900px;
-      border-radius: 20px;
-      float: left;
-      margin-left: 20px;
-      font-size: 36px;
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 725px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
 }
-
-
-
-
-
-
-
-
 
 
 
 
 #question9 {
-      margin-left: 10px;
-      margin-right: 10px;
-      background: cyan;
-      padding: 10px 10px 10px 10px;
-      width: 975px;
-      border-radius: 20px;
-      float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
 }
 
 
 #buttonQ9 {
-      background: green;
-      border: black;
-      border-radius: 5px;
-      padding: 10px;
-      color: white;
-      font-size: 30px;
-      transition-duration: 0.25s;
-      margin-top: 15px;
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
 }
 
 
 #buttonQ9:hover {
-      background: white;
-      border: 1px solid green;
-      color: black;
-      cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
 
 
 #after_submitQ9 {
-      visibility: hidden;
-      padding: 10px 10px 10px 10px;
-      width: 725px;
-      heigth: 900px;
-      border-radius: 20px;
-      float: left;
-      margin-left: 20px;
-      font-size: 36px;
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 725px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 36px;
 }
-
-
 
 
 
