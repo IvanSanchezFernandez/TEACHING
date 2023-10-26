@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+
+<head>
+
+<title>Neurotoxicology</title>
+<link href = "Neurotoxicology_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Neurotoxicology_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+<br>
+<br>
+
+
+<span style="font-size: 60px"><h1 style="text-align: center; color: #ac00e6">Neurotoxicology</h1></span>
+<span style="font-size: 40px"><h2 style="text-align: center; color: #ff00bf">(an excuse to talk about neurology in the toxicology rotation)</h1></span>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question1" name="question1">
+<p style="font-size:36px"> <b>Q1. Let's listen to this interesting presentation:</b></p>
+<div style="height:700px; width:900px; overflow: hidden;">
+<img id="vangogh" src="https://www.vangoghgallery.com/img/starry_night_full.jpg" width=900px heigth=700px><figcaption style="font-size:32px">
+</div>
+
+<div style="height:50px; width:900px; overflow: hidden;">
+<iframe width="900px" src="https://www.youtube.com/embed/m7MdhzMq-N4?si=lZGl9C7zN_-HS3gR?wmode=opaque&start=109&end=142;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+
+
+<p style="font-size:36px"> <b>Complete the thought process of your colleague. What might have been? What other symptoms do you expect?</b></p>
+<p style="font-size:36px">
+<input type="radio" id="q1" name="question" value="a"> Cocaine toxicity<br>
+<input type="radio" id="q1" name="question" value="b"> Schizophrenia<br>
+<input type="radio" id="q1" name="question" value="c"> Alcohol withdrawal<br>
+<input type="radio" id="q1" name="question" value="d"> Phencyclidine toxicity<br>
+<input type="radio" id="q1" name="question" value="e"> Cyanide intoxication<br>
+<input type="radio" id="q1" name="question" value="f"> Cholinesterase inhibitors exposure<br>
+<input type="radio" id="q1" name="question" value="g"> Digoxin toxicity<br>
+<input type="radio" id="q1" name="question" value="h"> Mercury toxicity<br>
+<input type="radio" id="q1" name="question" value="i"> LSD toxicity</p><br>
+<input id="buttonQ1" type="button" value="Done!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+<br>
+<br>
+<p id = "afterQ1_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form id="question2" name="question2">
+<p style="font-size:36px"> <b>Q2. You are going back home after work and you see the following people in the street:</b></p>
+
+<div style="height:700px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://www.youtube.com/embed/OxarOHluEj0?start=18&end=36;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+<br>
+<div style="height:700px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://www.youtube.com/embed/OxarOHluEj0?start=78&end=90;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+<br>
+<div style="height:100px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://www.youtube.com/embed/O2x4FdHAYI8?start=90&end=117;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+
+<p style="font-size:36px"> <b>When somebody approaches you and offers you pills in the street you know that the it is most likely...</b></p>
+<p style="font-size:36px">
+<input type="radio" id="q2" name="question" value="a"> Cocaine<br>
+<input type="radio" id="q2" name="question" value="b"> A substance derived from toads<br>
+<input type="radio" id="q2" name="question" value="c"> Alcohol<br>
+<input type="radio" id="q2" name="question" value="d"> Phencyclidine<br>
+<input type="radio" id="q2" name="question" value="e"> Cyanide<br>
+<input type="radio" id="q2" name="question" value="f"> Cholinesterase inhibitors<br>
+<input type="radio" id="q2" name="question" value="g"> Digoxin<br>
+<input type="radio" id="q2" name="question" value="h"> Mercury<br>
+<input type="radio" id="q2" name="question" value="i"> Cadmium</p><br>
+<input id="buttonQ2" type="button" value="Done!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+<br>
+<br>
+<p id = "afterQ2_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question3" name="question3">
+<p style="font-size:36px"> <b>Q3. A toxicology colleague explains to you one of the scariest potential agents used in bioterrorism:</b></p>
+<div style="height:100px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://www.youtube.com/embed/0YladwUQ_QY?start=424&end=430;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+<br>
+<div style="height:700px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://www.youtube.com/embed/73gLkuXywAw?start=134&end=147;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+<br>
+<div style="height:700px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://www.youtube.com/embed/_qF6zxf2N9I?start=32&end=54;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+
+<p style="font-size:36px"> <b>Based on the information in the videos, what is your diagnosis?</b></p>
+<p style="font-size:36px">
+<input type="radio" id="q3" name="question" value="a"> Anthrax<br>
+<input type="radio" id="q3" name="question" value="b"> A substance derived from toads<br>
+<input type="radio" id="q3" name="question" value="c"> Tetrodotoxin<br>
+<input type="radio" id="q3" name="question" value="d"> Phencyclidine<br>
+<input type="radio" id="q3" name="question" value="e"> Cyanide<br>
+<input type="radio" id="q3" name="question" value="f"> Cholinesterase inhibitors<br>
+<input type="radio" id="q3" name="question" value="g"> Ricin<br>
+<input type="radio" id="q3" name="question" value="h"> Mercury<br>
+<input type="radio" id="q3" name="question" value="i"> Botulinum toxin</p><br>
+<input id="buttonQ3" type="button" value="Done!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+<br>
+<br>
+<p id = "afterQ3_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<figure>
+      <center><img id="higherorderfigure" src="https://www.vangoghgallery.com/img/starry_night_full.jpg" width=1000px heigth=1000px><figcaption style="font-size:32px"><b>What caused yellow halos?</b></figcaption>
+      </center>
+</figure>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question4" name="question4">
+<p style="font-size:36px"> <b>Q4. The conversation about bioterrorism continues and you discuss this agent:</b></p>
+<div style="height:100px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://www.youtube.com/embed/6hv4fjMYZUs?start=104&end=136;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+<p style="font-size:36px"> <b>Based on the information in the videos, what is your diagnosis?</b></p>
+<p style="font-size:36px">
+<input type="radio" id="q4" name="question" value="a"> Ergotics<br>
+<input type="radio" id="q4" name="question" value="b"> A substance derived from toads<br>
+<input type="radio" id="q4" name="question" value="c"> Tetrodotoxin<br>
+<input type="radio" id="q4" name="question" value="d"> Phencyclidine<br>
+<input type="radio" id="q4" name="question" value="e"> Cyanide<br>
+<input type="radio" id="q4" name="question" value="f"> Cholinesterase inhibitors<br>
+<input type="radio" id="q4" name="question" value="g"> Ricin<br>
+<input type="radio" id="q4" name="question" value="h"> Mercury<br>
+<input type="radio" id="q4" name="question" value="i"> Botulinum toxin</p><br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<br>
+<p id = "afterQ4_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question5" name="question5">
+<p style="font-size:36px"> <b>Q5. As a toxicology expert, you are called to evaluate this historical event:</b></p>
+<div style="height:700px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://www.youtube.com/embed/nPGqyiSutF8?start=13&end=104;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+<br>
+<p style="font-size:36px"> <b>Q5. As a toxicology expert, you are called to evaluate this historical event:</b></p>
+<div style="height:700px; width:900px; overflow: hidden;">
+<iframe width="900px"    src="https://www.youtube.com/embed/nPGqyiSutF8?start=140&end=154;" theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   style="height:700px;  background:#000000; bottom: 60px; position: relative;"  
+sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
+</iframe>
+</div>
+
+<p style="font-size:36px"> <b>If intoxication, what is your suspicion?</b></p>
+<p style="font-size:36px">
+<input type="radio" id="q5" name="question" value="a"> Ergotics<br>
+<input type="radio" id="q5" name="question" value="b"> A substance derived from toads<br>
+<input type="radio" id="q5" name="question" value="c"> Tetrodotoxin<br>
+<input type="radio" id="q5" name="question" value="d"> Phencyclidine<br>
+<input type="radio" id="q5" name="question" value="e"> Cyanide<br>
+<input type="radio" id="q5" name="question" value="f"> Cholinesterase inhibitors<br>
+<input type="radio" id="q5" name="question" value="g"> Ricin<br>
+<input type="radio" id="q5" name="question" value="h"> Mercury<br>
+<input type="radio" id="q5" name="question" value="i"> Botulinum toxin</p><br>
+<input id="buttonQ5" type="button" value="Done!" onclick="checkQ5();">
+</form>
+
+<div id="after_submitQ5">
+<p id="answerQ5"></p>
+<br>
+<br>
+<p id = "afterQ5_picture"></p>
+</div>
+<br clear="all" />
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+</body>
+
+</html>
+
